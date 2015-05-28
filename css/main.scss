@@ -16,8 +16,9 @@ TYPOGRAPHY CHOICES
 - Karma, 5 styles.
 - Martel, 7 styles.
 
-???
-- Nunito & Lora
+p: Cabin, Muli
+
+
 
 */
 
@@ -78,6 +79,7 @@ $lora: 'Lora';
 		}
 		p {
       font-family: $noto;
+      line-height: 1.6;
 		}
 	}
 
@@ -171,6 +173,18 @@ $lora: 'Lora';
     p {
       font-family: $source;
       line-height: 1.4;
+      font-size: 18px;
+    }
+  }
+
+  &__ten {
+    h3 {
+      font-family: $mont;
+      font-size: 1.6em;
+    }
+    p {
+      font-family: $fauna;
+      line-height: 1.6;
       font-size: 18px;
     }
   }

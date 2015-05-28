@@ -16,8 +16,9 @@ TYPOGRAPHY CHOICES
 - Karma, 5 styles.
 - Martel, 7 styles.
 
-???
-- Nunito & Lora
+p: Cabin, Muli
+
+
 
 */
 * {
@@ -51,7 +52,8 @@ TYPOGRAPHY CHOICES
     font-family: "Fauna One";
     font-size: 1.5em; }
   .type-test__one p {
-    font-family: "Noto Serif"; }
+    font-family: "Noto Serif";
+    line-height: 1.6; }
   .type-test__two h3 {
     font-family: "Montserrat";
     font-size: 1.4em; }
@@ -105,6 +107,13 @@ TYPOGRAPHY CHOICES
   .type-test__nine p {
     font-family: "Source Sans Pro";
     line-height: 1.4;
+    font-size: 18px; }
+  .type-test__ten h3 {
+    font-family: "Montserrat";
+    font-size: 1.6em; }
+  .type-test__ten p {
+    font-family: "Fauna One";
+    line-height: 1.6;
     font-size: 18px; }
 
 /*# sourceMappingURL=main.css.map */
