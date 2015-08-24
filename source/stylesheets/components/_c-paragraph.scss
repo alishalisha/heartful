@@ -1,0 +1,13 @@
+.c-paragraph {
+	&__heading {
+		margin-bottom: 10px;
+		font-family: 'Merriweather';
+		font-weight: 600;
+		color: #464646;
+	}
+	&__text {
+		margin: 0;
+		font-size: 1.1em;
+		line-height: 1.4;
+	}
+}
