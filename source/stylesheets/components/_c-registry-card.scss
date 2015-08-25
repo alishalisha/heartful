@@ -1,8 +1,13 @@
 .c-registry-card {
 	padding: $padding-base;
-	border: 1px solid #ccc;
+	margin-bottom: $padding-base;
 	border-radius: 5px;
 	background: #fff;
+	@include vendor-prefix(transition, 0.2s ease-in-out);
+	box-shadow: 0 1px 0 0 hsla(0, 0%, 0%, 0.1);
+	&:hover {
+		@include vendor-prefix(transform, translateY(-5%));
+	}
 	&__title {
 		font-size: 1.2em;
 		margin-bottom: ($padding-base/2);
@@ -34,12 +39,12 @@
 			span { 
 				display: inline-block;
 				@include vendor-prefix(transition, 0.2s ease-in-out);
-				@include vendor-prefix(transform, translateX(130%));
+				//@include vendor-prefix(transform, translateX(130%));
 			}
 			&:before {
 				@include vendor-prefix(transition, 0.2s ease-in-out);
 				@include vendor-prefix(transform, translateX(0));
-				width: 50%;
+				width: 100%;
 			}
 		}
 		&:before {
@@ -53,6 +58,7 @@
 			background: $color-purple-deep;
 			opacity: 0.3;
 			width: 0;
+			@include vendor-prefix(transition, 0.2s ease-in-out);
 			@include vendor-prefix(transform, translateX(-100%));
 		}
 	}

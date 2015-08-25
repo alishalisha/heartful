@@ -22,8 +22,8 @@
 		text-align: center;
 	}
 	&__couple {
-		@include font-subhed;
-		font-size: 4.5em;
+		@include font-fancy;
+		font-size: 5.5em;
 	}
 	&__date {
 		@include font-subhed;

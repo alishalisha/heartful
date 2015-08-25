@@ -20,6 +20,12 @@
 	@include vendor-prefix(font-smoothing, antialiased);
 }
 
+@mixin font-fancy {
+	font-family: 'Playfair Display';
+	font-weight: 400;
+	font-style: italic;
+}
+
 .c-breaker {
 	padding: ($padding-base*2) 0;
 	&.gray {
@@ -33,6 +39,7 @@
 .meta {
 	@include font-meta;
 	color: $color-medium-gray;
+	margin-bottom: $padding-base;
 }
 
 .center {
