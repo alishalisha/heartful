@@ -1,3 +1,29 @@
 .c-registry-card {
-	
+	padding: $padding-base;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	&__title {
+		font-size: 1.2em;
+		margin-bottom: ($padding-base/2);
+	}
+	&__info {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__price {
+		font-size: 1.6em;
+	}
+	&__cart {
+		border: 3px solid $color-purple-deep;
+		color: $color-purple-deep;
+		text-transform: uppercase;
+		font-weight: 600;
+		background: #fff;
+		padding: 10px;
+		@include vendor-prefix(transition, 0.2s ease-in-out);
+		&:hover {
+			background: $color-purple-deep;
+			color: #fff;
+		}
+	}
 }

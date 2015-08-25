@@ -47,3 +47,13 @@
 .col-1-2 {
 	width: 50%;
 }
+
+// Flex children
+.flex {
+	display: flex;
+	justify-content: space-around;
+}
+
+.flex-2 {
+	width: 45%;
+}
