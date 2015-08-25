@@ -32,6 +32,11 @@
 
 .meta {
 	@include font-meta;
+	color: $color-medium-gray;
+}
+
+.center {
+	text-align: center;
 }
 
 // Columns
