@@ -2,12 +2,13 @@
 	&__heading {
 		margin-bottom: 10px;
 		font-family: 'Merriweather';
-		font-weight: 600;
+		font-weight: 900;
 		color: #464646;
 	}
 	&__text {
 		margin: 0;
 		font-size: 1.1em;
 		line-height: 1.4;
+		@include vendor-prefix(font-smoothing, initial);
 	}
 }

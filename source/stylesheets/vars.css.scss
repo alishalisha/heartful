@@ -1,5 +1,15 @@
-$color-text: #222;
+$color-text: #444;
 
-$color-purple-light: #DBDAFF;
+$color-purple-deep: #6F60EC;
+$color-purple-light: lighten(#6F60EC, 30%);
+$color-purple-lightest: lighten(#6F60EC, 32%);
+
+$color-purple-secondary: #5F208D;
+$color-purple-secondary-dark: darken(#5F208D, 7%);
 
 $color-medium-gray: #777;
+$color-dark-gray: darken(#777, 10%);
+
+$color-breaker-gray: #F4F4F4;
+
+$padding-base: 40px;

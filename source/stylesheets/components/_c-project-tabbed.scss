@@ -1,41 +1,92 @@
 .c-project-tabbed {
-	margin: 0 auto;
-	width: 800px;
+	margin: 40px auto;
 	border: 1px solid #ccc;
-	border-radius: 10px;
+	border-radius: 0 0 10px 10px;
+	border-top: 0;
 	&__header {
 		position: relative;
 		height: 400px;
 		background: url('http://media.npr.org/assets/img/2015/08/21/ballet2-edit_custom-e2652607fbfa2d04ec7fb756ab9f7581c98a034c-s800-c85.jpg');
+		background-size: cover;
 		color: #fff;
-		&:after {
-			content: '';
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			background: linear-gradient((rgba(0,0,0,0)), rgba(0,0,0,0.9));
-		}
+	}
+	&__header--overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: linear-gradient((rgba(0,0,0,0)), rgba(0,0,0,0.9));
+	}
+	&__header--wrapper {
+		position: absolute;
+		bottom: 0;
+		padding: $padding-base;
+		max-width: 75%;
+		z-index: 1;
+	}
+	&__header--subtitle {
+		@include font-meta;
+	}
+	&__header--title {
+		@include font-subhed;
+		font-size: 2.8em;
 	}
 	&__menu {
 		margin: 0;
-		padding: 20px;
-		background: #F0F2FA;
+		padding: $padding-base;
+		background: $color-purple-secondary;
+		color: #fff;
 	}
 	&__menu-item {
 		display: inline-block;
-		margin-right: 15px;
+		margin-right: $padding-base;
 		text-transform: uppercase;
+		font-weight: 600;
+		@include vendor-prefix(font-smoothing, antialiased);
 		&:last-child {
 			margin-right: 0;
 		}
 		&.active {
-			border-bottom: 2px solid #A1A2D7;
+			border-bottom: 2px solid $color-purple-deep;
+		}
+		a {
+			color: darken($color-purple-deep, 40%);
+		}
+		a:hover {
+			border-bottom: 2px solid $color-purple-deep;
 		}
 	}
 	&__content {
-		padding: 20px;
+		padding: $padding-base;
 		font-size: 1.3em;
+	}
+	&__content--overview {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+	&__content--overview--summary {
+		width: 60%;
+		font-size: 1.2em;
+	}
+	&__content--overview--partner {
+		color: $color-dark-gray;
+		font-size: 0.9em;
+		span { 
+			@include font-meta;
+			font-size: 0.8em;
+		}
+		h4 {
+			font-weight: 600;
+		}
+		.geography, .site {
+			display: block;
+			@include vendor-prefix(font-smoothing, initial);
+			font-size: 0.9em;
+		}
+		.site {
+			font-weight: bold;
+		}
 	}
 }
