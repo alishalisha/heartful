@@ -1,0 +1,32 @@
+.c-hero {
+	background: url('http://saavedraphoto.com/wp-content/uploads/2013/03/san-francisco-engagement-photography-AH-01.jpg');
+	height: 800px;
+	position: relative;
+	background-size: cover;
+	color: #fff;
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0,0,0,0.2);
+		z-index: 0;
+	}
+	&__container {
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+		top: 40%;
+		text-align: center;
+	}
+	&__couple {
+		@include font-subhed;
+		font-size: 4.5em;
+	}
+	&__date {
+		@include font-subhed;
+		font-size: 2em;
+	}
+}
