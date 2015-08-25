@@ -87,6 +87,9 @@
 		}
 		.site {
 			font-weight: bold;
+			&:hover {
+				color: darken($color-dark-gray, 10%);
+			}
 		}
 	}
 }
