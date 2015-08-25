@@ -48,13 +48,13 @@
 			margin-right: 0;
 		}
 		&.active {
-			border-bottom: 2px solid $color-purple-deep;
+			border-bottom: 2px solid lighten($color-purple-secondary, 20%);
 		}
 		a {
 			color: darken($color-purple-deep, 40%);
 		}
 		a:hover {
-			border-bottom: 2px solid $color-purple-deep;
+			border-bottom: 2px solid lighten($color-purple-secondary, 20%);
 		}
 	}
 	&__content {

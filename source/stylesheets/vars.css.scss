@@ -4,8 +4,8 @@ $color-purple-deep: #6F60EC;
 $color-purple-light: lighten(#6F60EC, 30%);
 $color-purple-lightest: #F2EFF9;
 
-$color-purple-secondary: #5F208D;
-$color-purple-secondary-dark: darken(#5F208D, 7%);
+$color-purple-secondary: #7953B8;
+$color-purple-secondary-dark: darken($color-purple-secondary, 7%);
 
 $color-medium-gray: #777;
 $color-dark-gray: darken(#777, 10%);
