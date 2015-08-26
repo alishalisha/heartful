@@ -34,90 +34,28 @@
 			width: 100%;
 		}
 		&:hover {
-			//background: $color-purple-deep;
-			//color: #fff;
-			span { 
-				display: inline-block;
-				@include vendor-prefix(transition, 0.2s ease-in-out);
-				//@include vendor-prefix(transform, translateX(130%));
-			}
-			&:before {
-				@include vendor-prefix(transition, 0.2s ease-in-out);
-				@include vendor-prefix(transform, translateX(0));
-				width: 100%;
-			}
-		}
-		&:before {
-			content: '';
-			overflow: hidden;
-			position: absolute;
-			top: 0;
-			left: 0;
-			height: 100%;
-			color: #fff;
 			background: $color-purple-deep;
-			opacity: 0.3;
-			width: 0;
-			@include vendor-prefix(transition, 0.2s ease-in-out);
-			@include vendor-prefix(transform, translateX(-100%));
+			color: #fff;
 		}
 	}
-}
-
-/* Sacnite */
-.button.button--sacnite {
-	width: 70px;
-	height: 70px;
-	min-width: 0;
-	padding: 0;
-	color: #fff;
-	-webkit-transition: color 0.3s;
-	transition: color 0.3s;
-}
-.button--scanite.button--round-l {
-	border-radius: 50%;
-}
-.button--sacnite.button--inverted {
-	color: #37474f;
-}
-.button--sacnite::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border-radius: inherit;
-	z-index: -1;
-	box-shadow: inset 0 0 0 35px #37474f;
-	-webkit-transform: scale3d(0.9, 0.9, 1);
-	transform: scale3d(0.9, 0.9, 1);
-	-webkit-transition: box-shadow 0.3s, -webkit-transform 0.3;
-	transition: box-shadow 0.3s, transform 0.3s;
-}
-.button--sacnite.button--inverted::before {
-	box-shadow: inset 0 0 0 35px #fff;
-}
-.button--sacnite .button__icon {
-	font-size: 22px;
-	width: 22px;
-}
-.button--sacnite > span {
-	position: absolute;
-	opacity: 0;
-	pointer-events: none;
-}
-.button--sacnite:hover {
-	color: #37474f;
-}
-.button--sacnite.button--inverted:hover {
-	color: #fff;
-}
-.button--sacnite:hover::before {
-	box-shadow: inset 0 0 0 2px #37474f;
-	-webkit-transform: scale3d(1, 1, 1);
-	transform: scale3d(1, 1, 1);
-}
-.button--sacnite.button--inverted:hover::before {
-	box-shadow: inset 0 0 0 2px #fff;
+	&__qty {
+		opacity: 0;
+		height: 0;
+		-webkit-transition: all 0.2s ease-in-out;
+		&.active {
+			opacity: 1;
+			height: auto;
+			padding: $padding-base 0px;
+			border-top: 1px solid $color-light-gray;
+			margin-top: $padding-base;
+		}
+		label {
+			font-size: 0.8em;
+			margin-right: 10px;
+		}
+		input {
+			max-width: 50px;
+			padding: 10px;
+		}
+	}
 }

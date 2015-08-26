@@ -10,11 +10,12 @@
     <title><%= current_page.data.title || "The Middleman" %></title>
     
     <%= stylesheet_link_tag "normalize", "all" %>
-    <%= javascript_include_tag  "all" %>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <!-- Loading Google web fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400italic' rel='stylesheet' type='text/css'>
     <!--Avenir Next - Regular, Medium, Bold : Need to upload webfont...-->
 
 
@@ -22,5 +23,7 @@
   
   <body class="<%= page_classes %>">
     <%= yield %>
+
+    <%= javascript_include_tag  "all" %>
   </body>
 </html>
