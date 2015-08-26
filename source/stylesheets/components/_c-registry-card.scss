@@ -6,7 +6,7 @@
 	@include vendor-prefix(transition, 0.2s ease-in-out);
 	box-shadow: 0 1px 0 0 hsla(0, 0%, 0%, 0.1);
 	&:hover {
-		@include vendor-prefix(transform, translateY(-5%));
+		@include vendor-prefix(transform, scale3d(1.03,1.03,1.03));
 	}
 	&__title {
 		font-size: 1.2em;
@@ -19,6 +19,7 @@
 	&__price {
 		font-size: 2em;
 	}
+  &__gift,
 	&__cart {
 		position: relative;
 		border: 3px solid $color-purple-deep;
@@ -27,6 +28,7 @@
 		font-weight: 600;
 		background: #fff;
 		padding: 10px;
+		outline: none;
 		@include vendor-prefix(transition, 0.2s ease-in-out);
 		overflow: hidden;
 		span {
@@ -42,6 +44,9 @@
 		opacity: 0;
 		height: 0;
 		-webkit-transition: all 0.2s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 		&.active {
 			opacity: 1;
 			height: auto;
@@ -54,6 +59,7 @@
 			margin-right: 10px;
 		}
 		input {
+			display: block;
 			max-width: 50px;
 			padding: 10px;
 		}

@@ -1,0 +1,13 @@
+button {
+  &.disabled {
+    background: $color-light-gray;
+    color: $color-medium-gray;
+    border: $color-light-gray;
+    &:hover {
+      cursor: default;
+      background: $color-light-gray;
+      color: $color-medium-gray;
+      border: $color-light-gray;
+    }
+  }
+}
