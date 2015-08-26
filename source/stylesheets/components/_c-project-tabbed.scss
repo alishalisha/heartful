@@ -44,6 +44,7 @@
 		text-transform: uppercase;
 		font-weight: 600;
 		padding-bottom: $padding-base/2;
+		border-bottom: 5px solid rgba(0,0,0,0);
 		@include vendor-prefix(font-smoothing, antialiased);
 		@include vendor-prefix(transition, 0.2s ease-in-out);
 		&:last-child {
