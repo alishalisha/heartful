@@ -43,16 +43,20 @@
 	&__qty {
 		opacity: 0;
 		height: 0;
-		-webkit-transition: all 0.2s ease-in-out;
+		overflow: hidden;
+		@include vendor-prefix(transition, 0.2s ease-in-out);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include vendor-prefix(transform, translateY(-30%));
 		&.active {
 			opacity: 1;
 			height: auto;
 			padding: $padding-base 0px;
 			border-top: 1px solid $color-light-gray;
 			margin-top: $padding-base;
+			-webkit-animation: grow 0.2s ease-in-out forwards;
+			//@include vendor-prefix(transform, translateY(0%));
 		}
 		label {
 			font-size: 0.8em;
@@ -63,5 +67,20 @@
 			max-width: 50px;
 			padding: 10px;
 		}
+	}
+}
+
+@-webkit-keyframes grow {
+	0% {
+		height: 0;
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		height: auto;
+		@include vendor-prefix(transform, translateY(0%));
+		opacity: 1;
 	}
 }
