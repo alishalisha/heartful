@@ -1,0 +1,25 @@
+.c-project-mini {
+  margin-bottom: $padding-base;
+  &__header {
+    background: url('http://media.npr.org/assets/img/2015/08/21/ballet2-edit_custom-e2652607fbfa2d04ec7fb756ab9f7581c98a034c-s800-c85.jpg');
+    background-size: cover;
+    height: 400px;
+    position: relative;
+  }
+  &__title {
+    z-index: 1;
+    position: absolute;
+    color: #fff;
+    font-size: 1.8em;
+    bottom: $padding-base;
+    left: $padding-base;
+    @include font-subhed;
+  }
+  &__info {
+    padding: $padding-base;
+    border-left: 1px solid $color-light-gray;
+    border-right: 1px solid $color-light-gray;
+    border-bottom: 1px solid $color-light-gray;
+    border-radius: 0 0 10px 10px;
+  }
+}

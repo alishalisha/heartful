@@ -22,22 +22,10 @@
   &__gift,
 	&__cart {
 		position: relative;
-		border: 3px solid $color-purple-deep;
-		color: $color-purple-deep;
-		text-transform: uppercase;
-		font-weight: 600;
-		background: #fff;
-		padding: 10px;
-		outline: none;
-		@include vendor-prefix(transition, 0.2s ease-in-out);
 		overflow: hidden;
 		span {
 			z-index: 1;
 			width: 100%;
-		}
-		&:hover {
-			background: $color-purple-deep;
-			color: #fff;
 		}
 	}
 	&__qty {
@@ -56,7 +44,6 @@
 			border-top: 1px solid $color-light-gray;
 			margin-top: $padding-base;
 			-webkit-animation: grow 0.2s ease-in-out forwards;
-			//@include vendor-prefix(transform, translateY(0%));
 		}
 		label {
 			font-size: 0.8em;

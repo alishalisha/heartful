@@ -21,12 +21,12 @@
 			max-width: 0;
 			border-bottom: 5px solid $color-purple-deep;
 			// include animation
-			-webkit-animation: grow 1.5s forwards;
+			-webkit-animation: line 1.5s forwards;
 		}
 	}
 }
 
-@-webkit-keyframes grow {
+@-webkit-keyframes line {
 	0% {
 		max-width: 0;
 	}

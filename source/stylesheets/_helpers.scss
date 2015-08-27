@@ -55,6 +55,22 @@
 	margin-bottom: $padding-base;
 }
 
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.nudge-top {
+  margin-top: $padding-base;
+}
+
+.nudge-top--small {
+  margin-top: $padding-base/2;
+}
+
 .center {
 	text-align: center;
 }
