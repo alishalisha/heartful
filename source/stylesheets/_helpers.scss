@@ -6,14 +6,20 @@
   #{$name}: #{$argument};
 }
 
+@mixin font-heading {
+  font-family: 'Merriweather';
+  font-weight: 900;
+  color: #464646;
+}
+
 @mixin font-subhed {
-  font-family: 'Roboto Slab';
+  font-family: 'Roboto Slab', sans-serif;
   font-weight: 300;
   @include vendor-prefix(font-smoothing, antialiased);
 }
 
 @mixin font-meta {
-	font-family: 'Avenir Next';
+	font-family: 'Avenir Next', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 0.5pt;
 	font-weight: 600;
@@ -21,7 +27,7 @@
 }
 
 @mixin font-fancy {
-	font-family: 'Playfair Display';
+	font-family: 'Playfair Display', serif;
 	font-weight: 400;
 	font-style: italic;
 }
@@ -57,6 +63,26 @@
 
 .block {
   display: block;
+}
+
+.stretch {
+  width: 100%;
+}
+
+.quiet {
+  color: $color-medium-gray;
+}
+
+.small {
+  font-size: 0.85em;
+}
+
+.ma {
+  margin: 0 auto;
+}
+
+.mb {
+  margin-bottom: $padding-base/2;
 }
 
 .inline {

@@ -1,9 +1,7 @@
 .c-paragraph {
 	&__heading {
-		margin-bottom: 10px;
-		font-family: 'Merriweather';
-		font-weight: 900;
-		color: #464646;
+		margin-bottom: $padding-base/4;
+		@include font-heading;
 	}
 	&__text {
 		margin: 0;
