@@ -1,3 +1,16 @@
+.c-nav {
+  padding: $padding-base/2 0;
+  z-index: 1;
+  border-bottom: 1px solid black;
 // nav - normal
 
 // nav - on top of a bg photo
+  &--transparent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    color: #fff;
+  }
+}
