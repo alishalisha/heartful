@@ -27,6 +27,7 @@
 	}
 	&__header--subtitle {
 		@include font-meta;
+    color: #fff;
 	}
 	&__header--title {
 		@include font-subhed;
@@ -45,6 +46,7 @@
 		font-weight: 600;
 		padding-bottom: $padding-base/2;
 		border-bottom: 5px solid rgba(0,0,0,0);
+    letter-spacing: 0.2pt;
 		@include vendor-prefix(font-smoothing, antialiased);
 		@include vendor-prefix(transition, 0.2s ease-in-out);
 		&:last-child {
@@ -54,7 +56,7 @@
 			border-bottom: 5px solid lighten($color-purple-secondary, 25%);
 		}
 		a {
-			color: darken($color-purple-deep, 40%);
+			color: #fff;
 		}
 		&:hover {
 			border-bottom: 5px solid lighten($color-purple-secondary, 25%);

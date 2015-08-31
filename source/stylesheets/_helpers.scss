@@ -101,6 +101,14 @@
   margin-bottom: $padding-base/4;
 }
 
+.pt {
+  padding-top: $padding-base;
+}
+
+.pt-l {
+  padding-top: $padding-base*2;
+}
+
 .inline {
   display: inline-block;
 }
