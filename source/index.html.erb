@@ -1,11 +1,18 @@
 ---
 title: Heartful.ly Components
 ---
+<%= partial "svg" %>
 
 <%= partial "components/nav" %>
-<%= partial "components/hero" %>
+<%#= partial "components/hero" %>
 
-<%= lorem.paragraphs 30 %>
+<%= partial "components/project-header" %>
+<%= partial "components/project-summary" %>
+<%= partial "components/project-about" %>
+<%= partial "components/quote" %>
+<%= partial "components/project-details" %>
+
+<%#= lorem.paragraphs 30 %>
 
 <!--<h1>Heartful.ly Components</h1>
 <%#= link_to "Subhed", "components/subhed.html" %>
@@ -27,7 +34,7 @@ title: Heartful.ly Components
 
 <%#= partial "components/project-mini" %>
 
-<%#= partial "components/registry-card" %>
+<%= partial "components/registry-card" %>
 
 <%#= partial "components/footer" %>
 

@@ -1,4 +1,7 @@
 .c-project-steps {
+  &__title {
+    @include font-heading;
+  }
   &__list {
     display: flex;
     align-items: top;
@@ -23,8 +26,8 @@
       height: 10px;
       width: 10px;
       border-radius: 50%;
-      border: 3px solid rgba(111, 96, 236, 0.55);
-      background: #ebe9fc;
+      border: 3px solid $color-blue-base;
+      background: $color-blue-base;
       opacity: 0.8;
     }
   }

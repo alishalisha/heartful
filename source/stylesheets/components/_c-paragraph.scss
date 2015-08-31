@@ -5,8 +5,8 @@
 	}
 	&__text {
 		margin: 0;
-		font-size: 1.1em;
-		line-height: 1.4;
+		font-size: 1.2em;
+		line-height: 1.6;
 		@include vendor-prefix(font-smoothing, initial);
 	}
 }

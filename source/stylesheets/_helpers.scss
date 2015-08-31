@@ -7,9 +7,9 @@
 }
 
 @mixin font-heading {
-  font-family: 'Merriweather';
+  font-family: 'Merriweather', Georgia, serif;
   font-weight: 900;
-  color: #464646;
+  //color: $color-purple-muted;
 }
 
 @mixin font-subhed {
@@ -19,10 +19,11 @@
 }
 
 @mixin font-meta {
-	font-family: 'Avenir Next', sans-serif;
+	font-family: 'Hind', Arial, sans-serif;
 	text-transform: uppercase;
-	letter-spacing: 0.5pt;
+	letter-spacing: 0.7pt;
 	font-weight: 600;
+  color: $color-medium-gray;
 	@include vendor-prefix(font-smoothing, antialiased);
 }
 
@@ -46,19 +47,22 @@
 		background: $color-breaker-gray;
 	}
 	&.purple {
-		background: $color-purple-lightest;
+		background: $color-purple-light;
+    color: $color-purple-deep-muted;
 	}
   &.white {
     background: #fff;
     border-top: 1px solid $color-light-gray;
     border-bottom: 1px solid $color-light-gray;
   }
+  &.blue {
+    background: $color-blue-light;
+    color: $color-blue-dark;
+  }
 }
 
 .meta {
 	@include font-meta;
-	color: $color-medium-gray;
-	margin-bottom: $padding-base;
 }
 
 .block {
@@ -85,6 +89,18 @@
   margin-bottom: $padding-base/2;
 }
 
+.mb--large {
+  margin-bottom: $padding-base;
+}
+
+.mb--xl {
+  margin-bottom: $padding-base*2;
+}
+
+.mb--small {
+  margin-bottom: $padding-base/4;
+}
+
 .inline {
   display: inline-block;
 }
@@ -95,6 +111,10 @@
 
 .nudge-top--small {
   margin-top: $padding-base/2;
+}
+
+.nudge-top--large {
+  margin-top: $padding-base*2;
 }
 
 .center {
@@ -125,4 +145,13 @@
 // if you want flexbox in a two column layout
 .flex-2 {
 	width: 45%;
+}
+
+// if you want a 60%, 40% divide between two children
+.flex-60 {
+  width: 50%;
+}
+
+.flex-40 {
+  width: 40;
 }

@@ -62,18 +62,22 @@ input[type="radio"] {
   margin: $padding-base/4 0;
 }
 
-// input checkbox
+// form states
+.is-disabled {
+  background: $color-light-gray;
+  color: $color-medium-gray;
+  box-shadow: none;
+  border: 1px solid $color-medium-gray;
+}
 
-// input dropdown
+.is-readonly {
+  color: $color-medium-gray;
+}
 
-// input textarea
+.is-required {
+  border: 1px solid $color-danger;
+}
 
-// input radio button
-
-// validating state
-
-// required field
-
-// field level help
-
-// date input
+.is-success {
+  border: 1px solid $color-success;
+}

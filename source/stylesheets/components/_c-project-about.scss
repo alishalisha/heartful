@@ -1,0 +1,24 @@
+.c-project-about {
+  &__photo {
+    min-width: 365px;
+    min-height: 235px;
+    background: url('http://d11sa1anfvm2xk.cloudfront.net/index/versions/campaigners/images/clean-water@2x.jpg');
+    background-size: cover;
+  }
+  &__overview {
+    margin-left: $padding-base;
+  }
+  &__meta {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+  }
+  &__link {
+    font-weight: bold;
+    color: $color-medium-gray;
+    &:hover {
+      color: $color-purple-muted;
+    }
+  }
+}

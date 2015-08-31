@@ -9,7 +9,8 @@
 		@include vendor-prefix(transform, scale3d(1.03,1.03,1.03));
 	}
 	&__title {
-		font-size: 1.2em;
+    font-weight: normal;
+		//color: $color-purple-muted;
 		margin-bottom: ($padding-base/2);
 	}
 	&__info {

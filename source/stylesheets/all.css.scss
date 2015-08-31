@@ -6,7 +6,7 @@
 
 body {
 	color: $color-text;
-  font-family: 'Avenir Next';
+  font-family: 'Hind', 'Open Sans', Arial, sans-serif;
   font-size: 16px;
   @include vendor-prefix(font-smoothing, antialiased);
 }
