@@ -7,20 +7,27 @@ $('.c-registry-card__gift').on('click', function() {
 
 var d = $('.c-hero');
 var heroHeight = d.height();
-console.log('hero height: ' + heroHeight);
 
 var e = $('.c-nav');
 var navHeight = e.outerHeight();
-console.log('nav height: ' + navHeight);
 
-document.onscroll = function() {
-  if (window.scrollY >= (heroHeight - navHeight)) {
-    $('.c-nav').removeClass('c-nav--transparent');
-    $('.c-nav').addClass('animate');
-  } else {
-    $('.c-nav').removeClass('animate');
-    $('.c-nav').addClass('c-nav--transparent');
-  }
-};
+// if there is a hero
+if ($('.c-hero').length != 0) {
+  document.onscroll = function() {
+    if (window.scrollY >= (heroHeight - navHeight)) {
+      $('.c-nav').removeClass('c-nav--transparent');
+      $('.c-nav').addClass('animate');
+    } else {
+      $('.c-nav').removeClass('animate');
+      $('.c-nav').addClass('c-nav--transparent');
+    }
+  };
+} else {
+  $('.c-nav').removeClass('c-nav--transparent');
+  //$('.c-nav').addClass('c-nav--normal');
+  $('.c-nav').addClass('animate');
+  var nextElementsPadding = $('.c-nav').next().css('padding-top');
+  $('.c-nav').next().css('padding-top', 80 + navHeight);
+}
 
 

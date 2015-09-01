@@ -27,6 +27,10 @@
   width: 100%;
   background: #fff;
 
+  &--normal {
+    position: relative;
+  }
+
   &.animate {
     @include vendor-prefix(animation, navSlideDown 0.3s ease-in-out);
     .c-nav__logo--mark {

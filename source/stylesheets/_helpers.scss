@@ -8,6 +8,7 @@
 
 @mixin font-heading {
   font-weight: 700;
+  font-family: 'Lora', Georgia, Times New Roman, serif;
 }
 
 @mixin font-subhed {
