@@ -25,9 +25,12 @@
 	&__couple {
 		@include font-fancy;
 		font-size: 5.5em;
+		margin-bottom: $padding-base/4;
 	}
 	&__date {
 		@include font-subhed;
-		font-size: 2em;
+		font-size: 1.3em;
+		letter-spacing: 2pt;
+		text-transform: uppercase;
 	}
 }
