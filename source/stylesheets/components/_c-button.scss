@@ -38,8 +38,10 @@
 }
 
 .link--secondary {
-  font-family: 'Merriweather';
+  text-transform: uppercase;
+  letter-spacing: 1pt;
   padding-bottom: 5px;
+  font-weight: 600;
   border-bottom: 1px solid $color-purple-deep;
   &:hover {
     opacity: 0.8;

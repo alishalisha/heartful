@@ -13,15 +13,13 @@ var e = $('.c-nav');
 var navHeight = e.outerHeight();
 console.log('nav height: ' + navHeight);
 
-// when the hero's bottom offset to the top
-// is less than
-// or equal to navHeight do something
 document.onscroll = function() {
   if (window.scrollY >= (heroHeight - navHeight)) {
-    console.log('woot: ' + window.scrollY);
-    $('.c-nav').css('color', 'black');
+    $('.c-nav').removeClass('c-nav--transparent');
+    $('.c-nav').addClass('animate');
   } else {
-    $('.c-nav').css('color', 'white');
+    $('.c-nav').removeClass('animate');
+    $('.c-nav').addClass('c-nav--transparent');
   }
 };
 
