@@ -30,4 +30,12 @@ if ($('.c-hero').length != 0) {
   $('.c-nav').next().css('padding-top', 80 + navHeight);
 }
 
+$('.c-nav__menu-item:last-child').on('mouseover', function(){
+  $('.c-nav__admin-menu').css('opacity', '1');
+});
+
+$('.c-nav__menu-item:last-child').on('mouseleave', function(){
+  $('.c-nav__admin-menu').css('opacity', '0');
+});
+
 
