@@ -1,0 +1,46 @@
+---
+title: Admin
+---
+<%= partial "svg" %>
+
+<%= partial "components/nav" %>
+<%#= partial "components/hero" %>
+<div class="c-breaker gray">
+  <div class="test">
+    <%#= partial "components/circle" %> <h1>Leslie & Jordan</h1>
+  </div>
+</div>
+<div class="c-breaker">
+  <div class="test">
+    <div class="flex flex--sb mb--large">
+      <div class="border flex-2 small">
+        <h2 class="mb--small">Your Project</h2>
+        <p>Thanks to your generosity, your registry has helped EcoSac raise <strong>$600</strong> so far.</p>
+      </div>
+      <div class="border flex-2 small">
+        <h2 class="mb--small">Registry Admin</h2>
+        <ul>
+          <li>Edit registry</li>
+          <li>Change email</li>
+          <li>Change password</li>
+          <li>Delete registry</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h2 class="mb"><svg class="c-icon c-icon--medium" title="gifts"><use xlink:href="#icon-gift"></use></svg> Your Gifted Items</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Item</th> <th>Quantity</th> <th>Bought by</th> <th>Total amount</th> <th>Personal note</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr> <td><%= lorem.words(3) %></td> <td>1</td> <td><%= lorem.name %></td> <td>$100</td> <td><%= lorem.sentences(4) %></td></tr>
+          <tr> <td><%= lorem.words(3) %></td> <td>14</td> <td><%= lorem.name %></td> <td>$100</td> <td><%= lorem.sentences(4) %></td></tr>
+          <tr> <td><%= lorem.words(3) %></td> <td>4</td> <td><%= lorem.name %></td> <td>$100</td> <td><%= lorem.sentences(4) %></td></tr>
+        </tbody>
+        </table>
+      </div>
+  </div>
+</div>
