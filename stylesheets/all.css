@@ -1,0 +1,1094 @@
+@charset "UTF-8";
+/* line 41, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.section {
+  margin-bottom: 80px; }
+
+/* line 45, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.c-breaker {
+  padding: 80px 0; }
+  /* line 47, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+  .c-breaker.gray {
+    background: #f7f7f7; }
+    /* line 50, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+    .c-breaker.gray .meta {
+      color: #5e5e5e; }
+  /* line 54, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+  .c-breaker.purple {
+    background: #efeefb;
+    color: #6059A0; }
+  /* line 58, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+  .c-breaker.white {
+    background: #fff;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd; }
+  /* line 63, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+  .c-breaker.blue {
+    background: #C7E7EC;
+    color: #147584; }
+
+/* line 69, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.meta {
+  font-family: 'Hind', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5pt;
+  font-weight: 600;
+  color: #9d9d9d;
+  -webkit-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased; }
+
+/* line 73, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.block {
+  display: block; }
+
+/* line 77, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.stretch {
+  width: 100%; }
+
+/* line 81, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.skinny {
+  width: 75%; }
+
+/* line 85, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.quiet {
+  color: #777; }
+
+/* line 89, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.small {
+  font-size: 0.85em; }
+
+/* line 93, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.ma {
+  margin: 0 auto; }
+
+/* line 97, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.mb {
+  margin-bottom: 20px; }
+
+/* line 101, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.mb--large {
+  margin-bottom: 40px; }
+
+/* line 105, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.mb--xl {
+  margin-bottom: 80px; }
+
+/* line 109, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.mb--small {
+  margin-bottom: 10px; }
+
+/* line 113, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.pt {
+  padding-top: 40px; }
+
+/* line 117, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.pt-l {
+  padding-top: 80px; }
+
+/* line 121, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.inline {
+  display: inline-block; }
+
+/* line 125, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.nudge-top {
+  margin-top: 40px; }
+
+/* line 129, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.nudge-top--small {
+  margin-top: 20px; }
+
+/* line 133, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.nudge-top--large {
+  margin-top: 80px; }
+
+/* line 137, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.center {
+  text-align: center; }
+
+/* line 142, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.col {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 40px; }
+  /* line 146, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+  .col:last-child {
+    padding-right: 0; }
+
+/* line 151, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.col-1-2 {
+  width: 50%; }
+
+/* line 156, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; }
+
+/* line 162, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.flex--sb {
+  justify-content: space-between; }
+
+/* line 167, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.flex-2 {
+  width: 45%; }
+
+/* line 172, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.flex-60 {
+  width: 50%; }
+
+/* line 176, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.flex-40 {
+  width: 40%; }
+
+/* line 180, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+.border {
+  padding: 20px;
+  border-right: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  border-top: 5px solid #7D72DE;
+  border-radius: 0px 0px 5px 5px; }
+
+/* line 2, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-subhed.scss */
+.c-subhed__info {
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Hind', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5pt;
+  font-weight: 600;
+  color: #9d9d9d;
+  -webkit-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-size: 0.95em;
+  color: #777; }
+/* line 10, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-subhed.scss */
+.c-subhed__text {
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Roboto Slab';
+  font-weight: 300;
+  font-size: 2.1em;
+  -webkit-font-smoothing: antialiased; }
+  /* line 17, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-subhed.scss */
+  .c-subhed__text:after {
+    content: '';
+    display: block;
+    margin: 10px auto 0 auto;
+    max-width: 0;
+    border-bottom: 5px solid #7D72DE;
+    -webkit-animation: line 1.5s forwards; }
+
+@-webkit-keyframes line {
+  0% {
+    max-width: 0; }
+  100% {
+    max-width: 30%; } }
+/* line 2, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-paragraph.scss */
+.c-paragraph__heading {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 1.35rem;
+  color: #525252; }
+/* line 6, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-paragraph.scss */
+.c-paragraph__text {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.6;
+  -webkit-font-smoothing: initial;
+  -ms-font-smoothing: initial;
+  -moz-font-smoothing: initial;
+  -o-font-smoothing: initial;
+  font-smoothing: initial; }
+
+/* line 1, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-circle.scss */
+.c-circle {
+  background: url("http://cdn1.stocksy.com/a/D4p200/z0/672961.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto 40px auto;
+  border-radius: 50%; }
+
+/* line 1, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+.c-project-tabbed {
+  margin: 40px auto 80px auto;
+  border: 1px solid #ccc;
+  border-radius: 0 0 10px 10px;
+  border-top: 0; }
+  /* line 6, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+  .c-project-tabbed__header {
+    position: relative;
+    height: 400px;
+    background: url("http://media.npr.org/assets/img/2015/08/21/ballet2-edit_custom-e2652607fbfa2d04ec7fb756ab9f7581c98a034c-s800-c85.jpg");
+    background-size: cover;
+    color: #fff; }
+  /* line 13, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+  .c-project-tabbed__header--overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.9)); }
+  /* line 21, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+  .c-project-tabbed__header--wrapper {
+    position: absolute;
+    bottom: 0;
+    padding: 40px;
+    max-width: 75%;
+    z-index: 1; }
+  /* line 28, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+  .c-project-tabbed__header--subtitle {
+    font-family: 'Hind', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    font-weight: 600;
+    color: #9d9d9d;
+    -webkit-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    color: #fff; }
+  /* line 32, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+  .c-project-tabbed__header--title {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-size: 2.8em; }
+  /* line 36, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+  .c-project-tabbed__menu {
+    margin: 0;
+    padding: 20px 40px 0 40px;
+    background: #7953B8;
+    color: #fff; }
+  /* line 42, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+  .c-project-tabbed__menu-item {
+    display: inline-block;
+    margin-right: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 20px;
+    border-bottom: 5px solid transparent;
+    letter-spacing: 0.2pt;
+    -webkit-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    -webkit-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out; }
+    /* line 52, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+    .c-project-tabbed__menu-item:last-child {
+      margin-right: 0; }
+    /* line 55, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+    .c-project-tabbed__menu-item.active {
+      border-bottom: 5px solid #bfaddd; }
+    /* line 58, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+    .c-project-tabbed__menu-item a {
+      color: #fff; }
+    /* line 61, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+    .c-project-tabbed__menu-item:hover {
+      border-bottom: 5px solid #bfaddd; }
+  /* line 65, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+  .c-project-tabbed__content {
+    padding: 40px;
+    font-size: 1.3em; }
+  /* line 69, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+  .c-project-tabbed__content--overview {
+    display: flex;
+    align-items: flex-start; }
+  /* line 73, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+  .c-project-tabbed__content--overview--summary {
+    width: 60%;
+    font-size: 1.2em;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    border-right: 1px solid #dddddd;
+    padding-right: 40px; }
+  /* line 81, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+  .c-project-tabbed__content--overview--partner {
+    color: #5e5e5e;
+    padding-left: 40px;
+    font-size: 0.8em; }
+    /* line 85, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+    .c-project-tabbed__content--overview--partner h4 {
+      font-weight: 600; }
+
+/* line 1, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-footer.scss */
+.c-footer {
+  padding: 40px 0;
+  background: #6059A0;
+  font-size: 0.8em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.2pt;
+  -webkit-font-smoothing: initial;
+  -ms-font-smoothing: initial;
+  -moz-font-smoothing: initial;
+  -o-font-smoothing: initial;
+  font-smoothing: initial; }
+
+/* line 1, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-hero.scss */
+.c-hero {
+  background: url("http://saavedraphoto.com/wp-content/uploads/2013/03/san-francisco-engagement-photography-AH-01.jpg");
+  height: 800px;
+  margin-bottom: 80px;
+  position: relative;
+  background-size: cover;
+  color: #fff; }
+  /* line 8, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-hero.scss */
+  .c-hero:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 0; }
+  /* line 18, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-hero.scss */
+  .c-hero__container {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 40%;
+    text-align: center; }
+  /* line 25, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-hero.scss */
+  .c-hero__couple {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5.5em;
+    margin-bottom: 10px; }
+  /* line 30, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-hero.scss */
+  .c-hero__date {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-size: 1.3em;
+    letter-spacing: 2pt;
+    text-transform: uppercase; }
+
+/* line 1, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-registry-card.scss */
+.c-registry-card {
+  padding: 40px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  background: #fff;
+  -webkit-transition: 0.2s ease-in-out;
+  -ms-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1); }
+  /* line 8, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-registry-card.scss */
+  .c-registry-card:hover {
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    -ms-transform: scale3d(1.03, 1.03, 1.03);
+    -moz-transform: scale3d(1.03, 1.03, 1.03);
+    -o-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03); }
+  /* line 11, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-registry-card.scss */
+  .c-registry-card__title {
+    font-weight: normal;
+    margin-bottom: 20px; }
+  /* line 16, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-registry-card.scss */
+  .c-registry-card__info {
+    display: flex;
+    justify-content: space-between; }
+  /* line 20, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-registry-card.scss */
+  .c-registry-card__price {
+    font-size: 2em;
+    color: #777; }
+  /* line 24, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-registry-card.scss */
+  .c-registry-card__gift, .c-registry-card__cart {
+    position: relative;
+    overflow: hidden; }
+    /* line 28, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-registry-card.scss */
+    .c-registry-card__gift span, .c-registry-card__cart span {
+      z-index: 1;
+      width: 100%; }
+  /* line 33, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-registry-card.scss */
+  .c-registry-card__qty {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-transform: translateY(-30%);
+    -ms-transform: translateY(-30%);
+    -moz-transform: translateY(-30%);
+    -o-transform: translateY(-30%);
+    transform: translateY(-30%); }
+    /* line 42, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-registry-card.scss */
+    .c-registry-card__qty.active {
+      opacity: 1;
+      height: auto;
+      padding: 40px 0px;
+      border-top: 1px solid #dddddd;
+      margin-top: 40px;
+      -webkit-animation: grow 0.2s ease-in-out forwards; }
+  /* line 51, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-registry-card.scss */
+  .c-registry-card__qty-input label {
+    font-size: 0.85em; }
+  /* line 54, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-registry-card.scss */
+  .c-registry-card__qty-input input {
+    width: 50px; }
+
+@-webkit-keyframes grow {
+  0% {
+    height: 0;
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  100% {
+    height: auto;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 1; } }
+/* line 2, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-button.scss */
+.c-button {
+  border: 3px solid #7D72DE;
+  color: #7D72DE;
+  background: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.8pt;
+  font-weight: 600;
+  padding: 10px;
+  outline: none;
+  -webkit-transition: 0.2s ease-in-out;
+  -ms-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out; }
+  /* line 12, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-button.scss */
+  .c-button:hover {
+    background: #7D72DE;
+    color: #fff; }
+
+/* line 19, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-button.scss */
+.c-button--primary {
+  background: #7D72DE;
+  color: #fff; }
+  /* line 22, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-button.scss */
+  .c-button--primary:hover {
+    border: 3px solid #5E54B8;
+    background: #5E54B8; }
+
+/* line 28, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-button.scss */
+.c-button--disabled {
+  background: #dddddd;
+  color: #777;
+  border: #dddddd; }
+  /* line 32, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-button.scss */
+  .c-button--disabled:hover {
+    cursor: default;
+    background: #dddddd;
+    color: #777;
+    border: #dddddd; }
+
+/* line 40, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-button.scss */
+.link--secondary {
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+  padding-bottom: 5px;
+  font-weight: 600;
+  border-bottom: 1px solid #7D72DE; }
+  /* line 46, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-button.scss */
+  .link--secondary:hover {
+    opacity: 0.8; }
+
+/* line 2, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-steps.scss */
+.c-project-steps__title {
+  font-weight: 700;
+  font-size: 1.35rem;
+  color: #525252; }
+/* line 5, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-steps.scss */
+.c-project-steps__list {
+  display: flex;
+  align-items: top; }
+/* line 9, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-steps.scss */
+.c-project-steps__list-left {
+  width: 10px;
+  border-right: 2px dotted #dddddd;
+  margin-right: -26px; }
+/* line 14, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-steps.scss */
+.c-project-steps__list-right {
+  margin: 0; }
+/* line 17, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-steps.scss */
+.c-project-steps__list-item {
+  position: relative;
+  list-style: none;
+  margin-bottom: 40px;
+  line-height: 1.6;
+  font-size: 0.9em; }
+  /* line 23, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-steps.scss */
+  .c-project-steps__list-item:before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: -23px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 3px solid #7D72DE;
+    background: #7D72DE;
+    opacity: 0.8; }
+
+/* line 4, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-mini.scss */
+.c-project-mini:hover__header:after {
+  opacity: 0.5; }
+/* line 8, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-mini.scss */
+.c-project-mini__header {
+  background: url("http://www.socialbrite.org/wp-content/uploads/2011/11/EpicChange_Children.jpg");
+  background-size: cover;
+  height: 400px;
+  position: relative; }
+  /* line 13, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-mini.scss */
+  .c-project-mini__header:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #7D72DE;
+    opacity: 0; }
+/* line 24, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-mini.scss */
+.c-project-mini__title {
+  z-index: 1;
+  position: absolute;
+  color: #fff;
+  font-size: 1.8em;
+  bottom: 40px;
+  left: 40px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased; }
+/* line 33, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-mini.scss */
+.c-project-mini__info {
+  padding: 40px;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  border-radius: 0 0 10px 10px;
+  line-height: 1.6;
+  font-size: 0.9em; }
+
+/* line 2, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-form.scss */
+label {
+  margin-right: 10px;
+  vertical-align: middle;
+  font-weight: bold; }
+
+/* line 8, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-form.scss */
+input,
+select,
+textarea,
+fieldset {
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #dddddd;
+  box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.1); }
+
+/* line 18, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-form.scss */
+select {
+  height: 2.25rem;
+  vertical-align: middle; }
+
+/* line 23, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-form.scss */
+input[type="checkbox"],
+select {
+  box-shadow: none; }
+
+/* line 28, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-form.scss */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 0;
+  border: 1px solid #7D72DE;
+  box-shadow: 0 0 0 2px #a39be8; }
+
+/* line 36, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-form.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+  margin: 0 10px 10px 0; }
+  /* line 40, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-form.scss */
+  input[type="checkbox"]:focus,
+  input[type="radio"]:focus {
+    border: 0;
+    box-shadow: none; }
+
+/* line 50, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-form.scss */
+.stacked label, .stacked input, .stacked textarea {
+  display: block; }
+/* line 53, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-form.scss */
+.stacked input[type="checkbox"],
+.stacked input[type="radio"] {
+  display: inline; }
+
+/* line 62, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-form.scss */
+.float-form label {
+  width: 25%;
+  float: left; }
+  /* line 65, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-form.scss */
+  .float-form label:after {
+    content: '';
+    clear: both; }
+
+/* line 72, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-form.scss */
+.help {
+  margin: 5px 0 10px 0;
+  color: #777;
+  font-size: 0.8em; }
+
+/* line 79, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-form.scss */
+.is-disabled {
+  background: #dddddd;
+  color: #777;
+  box-shadow: none;
+  border: 1px solid #777; }
+
+/* line 86, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-form.scss */
+.is-readonly {
+  color: #777; }
+
+/* line 90, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-form.scss */
+.is-required {
+  border: 1px solid #FF4D4D; }
+
+/* line 94, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-form.scss */
+.is-success {
+  border: 1px solid #2BD380; }
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-70%); }
+  40% {
+    opacity: 0; }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%); } }
+@-webkit-keyframes navSlideDown {
+  0% {
+    -webkit-transform: translateY(-50%); }
+  100% {
+    -webkit-transform: translateY(0%); } }
+/* line 26, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+.c-nav {
+  padding: 20px 0;
+  z-index: 2;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+  max-height: 65px;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  font-size: 0.9em; }
+  /* line 36, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+  .c-nav--normal {
+    position: relative; }
+  /* line 40, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+  .c-nav.animate {
+    -webkit-animation: navSlideDown 0.3s ease-in-out;
+    -ms-animation: navSlideDown 0.3s ease-in-out;
+    -moz-animation: navSlideDown 0.3s ease-in-out;
+    -o-animation: navSlideDown 0.3s ease-in-out;
+    animation: navSlideDown 0.3s ease-in-out; }
+    /* line 42, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+    .c-nav.animate .c-nav__logo--mark {
+      -webkit-animation: logo 0.3s 0.2s ease-in-out forwards;
+      -ms-animation: logo 0.3s 0.2s ease-in-out forwards;
+      -moz-animation: logo 0.3s 0.2s ease-in-out forwards;
+      -o-animation: logo 0.3s 0.2s ease-in-out forwards;
+      animation: logo 0.3s 0.2s ease-in-out forwards; }
+  /* line 47, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+  .c-nav__logo--logotype {
+    display: none; }
+  /* line 51, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+  .c-nav__logo--mark {
+    -webkit-transform: translateX(-70%);
+    height: 30px;
+    opacity: 0; }
+  /* line 58, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+  .c-nav--transparent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 40px;
+    width: 100%;
+    background: transparent;
+    box-shadow: none; }
+    /* line 67, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+    .c-nav--transparent .c-nav__menu-item {
+      color: #fff; }
+      /* line 69, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+      .c-nav--transparent .c-nav__menu-item:last-child {
+        color: #fff; }
+    /* line 74, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+    .c-nav--transparent .c-nav__logo {
+      display: inline-block;
+      fill: #fff;
+      margin: 0 auto; }
+    /* line 79, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+    .c-nav--transparent .c-nav__logo--mark {
+      display: none; }
+  /* line 84, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+  .c-nav__logo {
+    max-height: 40px;
+    max-width: 187px;
+    margin-top: -5px;
+    margin-left: 40px;
+    fill: #7D72DE; }
+  /* line 91, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+  .c-nav__logo-wrapper {
+    width: 30%; }
+  /* line 95, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+  .c-nav__logo-wrapper, .c-nav__menu {
+    display: inline-block; }
+  /* line 99, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+  .c-nav__menu {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  /* line 105, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+  .c-nav__menu-item {
+    display: inline-block;
+    margin-right: 20px;
+    color: #777;
+    font-size: 0.93em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5pt; }
+    /* line 113, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+    .c-nav__menu-item:last-child {
+      color: #2e2e2e;
+      margin-right: 40px;
+      text-transform: none;
+      font-weight: 700;
+      letter-spacing: 0;
+      margin-left: 15px;
+      position: relative; }
+      /* line 121, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+      .c-nav__menu-item:last-child:hover {
+        color: #2e2e2e; }
+        /* line 123, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+        .c-nav__menu-item:last-child:hover .c-nav__admin-menu {
+          opacity: 1; }
+      /* line 127, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+      .c-nav__menu-item:last-child:before {
+        content: '';
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -15px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #2BD380; }
+    /* line 138, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+    .c-nav__menu-item:hover {
+      color: #2e2e2e; }
+  /* line 142, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+  .c-nav__admin-menu {
+    position: absolute;
+    opacity: 0;
+    left: -20px;
+    width: 180px;
+    top: 44px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #dddddd;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    list-style: none; }
+  /* line 154, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+  .c-nav__admin-menu-item {
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 2; }
+    /* line 158, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+    .c-nav__admin-menu-item:hover {
+      color: #2e2e2e; }
+    /* line 161, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+    .c-nav__admin-menu-item:last-child {
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid #dddddd;
+      color: #777; }
+      /* line 166, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+      .c-nav__admin-menu-item:last-child:hover {
+        color: #2e2e2e; }
+
+/* line 1, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-header.scss */
+.c-project-header {
+  padding-bottom: 80px; }
+  /* line 3, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-header.scss */
+  .c-project-header__title {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    display: inline;
+    line-height: 1.5;
+    font-size: 3em;
+    box-shadow: 0px 4px 0px 0px white, 0px 6px 0px 0px #c9c5f1;
+    max-width: 40%; }
+    /* line 10, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-header.scss */
+    .c-project-header__title:after {
+      content: '';
+      position: relative;
+      display: block;
+      height: 1px; }
+
+/* line 2, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-summary.scss */
+.c-project-summary__summary {
+  font-size: 1.8em;
+  line-height: 1.5;
+  font-weight: 200;
+  flex-grow: 2;
+  padding-right: 40px; }
+/* line 9, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-summary.scss */
+.c-project-summary__photo {
+  min-width: 365px;
+  height: 235px;
+  flex-grow: 1;
+  background: url("http://d11sa1anfvm2xk.cloudfront.net/index/versions/campaigners/images/clean-water@2x.jpg");
+  background-size: cover; }
+
+/* line 2, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-about.scss */
+.c-project-about__photo {
+  width: 365px;
+  height: 235px;
+  background: url("http://d11sa1anfvm2xk.cloudfront.net/index/versions/campaigners/images/clean-water@2x.jpg");
+  background-size: cover; }
+/* line 8, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-about.scss */
+.c-project-about__overview {
+  margin-left: 40px;
+  width: 60%; }
+/* line 12, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-about.scss */
+.c-project-about__meta {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+  font-size: 0.8em;
+  color: #777; }
+/* line 20, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-about.scss */
+.c-project-about__link {
+  color: #777; }
+  /* line 23, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-about.scss */
+  .c-project-about__link:hover {
+    color: #7D72DE; }
+
+/* line 1, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-quote.scss */
+.c-quote {
+  background: #4c477f;
+  color: #fff; }
+  /* line 6, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-quote.scss */
+  .c-quote__content {
+    padding: 80px 0; }
+  /* line 9, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-quote.scss */
+  .c-quote__quote {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-size: 1.7em;
+    position: relative; }
+    /* line 13, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-quote.scss */
+    .c-quote__quote:before {
+      content: '“';
+      position: absolute;
+      top: -5px;
+      left: -40px;
+      color: #7D72DE;
+      font-size: 2em; }
+  /* line 22, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-quote.scss */
+  .c-quote__person {
+    font-size: 0.8em; }
+
+/* line 1, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-icon.scss */
+.c-icon {
+  fill: #777;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle; }
+  /* line 6, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-icon.scss */
+  .c-icon--white {
+    fill: #fff; }
+  /* line 9, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-icon.scss */
+  .c-icon--purple {
+    fill: #7D72DE; }
+  /* line 12, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-icon.scss */
+  .c-icon--gray {
+    fill: #dddddd; }
+  /* line 15, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-icon.scss */
+  .c-icon--green {
+    fill: #2BD380; }
+  /* line 18, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-icon.scss */
+  .c-icon--status {
+    fill: #655e3c;
+    margin-right: 5px; }
+  /* line 22, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-icon.scss */
+  .c-icon--inline {
+    width: 1em;
+    height: 1em;
+    margin-right: 3px; }
+  /* line 27, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-icon.scss */
+  .c-icon--large {
+    width: 40px;
+    height: 40px; }
+  /* line 31, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-icon.scss */
+  .c-icon--medium {
+    width: 25px;
+    height: 25px; }
+
+/* line 3, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 7, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
+body {
+  color: #2e2e2e;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px; }
+
+/* line 13, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
+a, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+  -webkit-transition: 0.1s ease-in-out;
+  -ms-transition: 0.1s ease-in-out;
+  -moz-transition: 0.1s ease-in-out;
+  -o-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out; }
+
+/* line 19, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
+h1, h2, h3, h4, h5, p {
+  margin: 0; }
+
+/* line 24, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
+.test {
+  max-width: 960px;
+  margin: 0 auto; }
+
+/* line 29, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
+.c-card {
+  font-size: 0.9em;
+  background: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.1); }
+
+/* line 37, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
+.c-create__line {
+  display: inline-block;
+  border-top: 2px solid #dddddd;
+  height: 1px;
+  width: 50px; }
+
+/* line 44, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
+.c-create__step {
+  font-weight: bold;
+  font-size: 0.9em;
+  color: #5e5e5e; }
+
+/* line 53, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
+.c-status {
+  background: #FDEC97;
+  color: #655e3c;
+  font-size: 0.8em;
+  padding: 10px 0; }
+
+/* line 62, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  max-width: 100%;
+  width: 100%; }
+
+/* line 69, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
+table {
+  border: 1px solid #eee; }
+
+/* line 73, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
+.scroll-table {
+  border: 1px solid red;
+  width: 200px;
+  height: 400px;
+  overflow: auto; }
+
+/* line 80, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
+th, td {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #eee;
+  padding: 10px; }
+
+/* line 86, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
+tr:last-child {
+  border-bottom: 0; }
+
+/* line 89, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
+td:last-child {
+  max-width: 300px;
+  font-size: 0.8em; }
+
+/* line 94, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
+th {
+  text-align: left; }
+
+/* line 98, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
+th {
+  vertical-align: bottom; }
+
+/* line 99, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
+td {
+  vertical-align: top; }
