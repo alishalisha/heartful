@@ -30,6 +30,18 @@ h1, h2, h3, h4, h5, p {
 	font-size: 0.9em;
 	background: #fff;
 	padding: $padding-base;
-	border-radius: 10px;
+	border-radius: 5px;
 	box-shadow: 1px 1px 2px 0 hsla(0, 0%, 0%, 0.1);
+}
+
+.c-create__line {
+	display: inline-block;
+	border-top: 2px solid $color-light-gray;
+	height: 1px;
+	width: 50px;
+}
+
+.c-create__step {
+	font-weight: bold;
+	font-size: 0.9em;
 }

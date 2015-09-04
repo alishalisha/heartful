@@ -2,6 +2,7 @@
 label {
   margin-right: $padding-base/4;
   vertical-align: middle;
+  font-weight: bold;
 }
 
 input,
@@ -53,13 +54,25 @@ input[type="radio"] {
   input[type="radio"] {
     display: inline;
   }
+}
+
+// this will float labels to the left
+// and input to the right
+.float-form {
   label {
-    margin-bottom: $padding-base/4;
+    width: 25%;
+    float: left;
+    &:after {
+      content: '';
+      clear: both;
+    }
   }
 }
 
 .help {
-  margin: $padding-base/4 0;
+  margin: 5px 0 $padding-base/4 0;
+  color: $color-medium-gray;
+  font-size: 0.8em;
 }
 
 // form states
