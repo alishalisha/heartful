@@ -14,9 +14,11 @@
     margin: 0;
     padding: 0;
     line-height: 2;
+    font-size: 0.8em;
+    color: $color-medium-gray;
   }
   &__link {
-    font-weight: bold;
+    //font-weight: bold;
     color: $color-medium-gray;
     &:hover {
       color: $color-purple-muted;

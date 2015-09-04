@@ -8,8 +8,9 @@
 
 @mixin font-heading {
   font-weight: 700;
+  font-size: 1.35rem;
   color: #525252;
-  font-family: 'Lora', Georgia, Times New Roman, serif;
+  //font-family: 'Lora', Georgia, Times New Roman, serif;
 }
 
 @mixin font-subhed {
@@ -21,9 +22,9 @@
 @mixin font-meta {
 	font-family: 'Hind', Arial, sans-serif;
 	text-transform: uppercase;
-	letter-spacing: 0.7pt;
+	letter-spacing: 0.5pt;
 	font-weight: 600;
-  color: $color-medium-gray;
+  color: lighten($color-medium-gray, 15%);
 	@include vendor-prefix(font-smoothing, antialiased);
 }
 
@@ -161,5 +162,5 @@
 }
 
 .flex-40 {
-  width: 40;
+  width: 40%;
 }

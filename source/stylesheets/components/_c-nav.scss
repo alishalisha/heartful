@@ -31,6 +31,7 @@ $navheight: 65px;
   position: fixed;
   width: 100%;
   background: #fff;
+  font-size: 0.9em;
 
   &--normal {
     position: relative;
@@ -62,6 +63,13 @@ $navheight: 65px;
     width: 100%;
     background: transparent;
     box-shadow: none;
+
+    .c-nav__menu-item {
+      color: #fff;
+      &:last-child {
+        color: #fff;
+      }
+    }
 
     .c-nav__logo {
       display: inline-block;
@@ -128,7 +136,7 @@ $navheight: 65px;
       }
     }
     &:hover {
-      color: $color-purple-deep-muted;
+      color: $color-text;
     }
   }
   &__admin-menu {
@@ -146,8 +154,9 @@ $navheight: 65px;
   &__admin-menu-item {
     font-weight: 600;
     letter-spacing: 0;
+    line-height: 2;
     &:hover {
-      color: $color-purple-deep-muted;
+      color: $color-text;
     }
     &:last-child {
       margin-top: $padding-base/4;

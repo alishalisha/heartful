@@ -48,6 +48,9 @@
 			-webkit-animation: grow 0.2s ease-in-out forwards;
 		}
 	}
+	&__qty-input label {
+		font-size: 0.85em;
+	}
   &__qty-input input {
     width: 50px;
   }

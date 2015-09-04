@@ -1,9 +1,22 @@
 .c-icon {
-  fill: $color-dark-gray;
-  // width: 25px;
-  // height: 25px;
+  fill: $color-medium-gray;
+  width: 20px;
+  height: 20px;
   vertical-align: middle;
   &--white {
     fill: #fff;
+  }
+  &--inline {
+    width: 1em;
+    height: 1em;
+    margin-right: 3px;
+  }
+  &--large {
+    width: 50px;
+    height: 50px;
+  }
+  &--medium {
+    width: 25px;
+    height: 25px;
   }
 }
