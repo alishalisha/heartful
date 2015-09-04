@@ -11,7 +11,7 @@ var heroHeight = d.height();
 var e = $('.c-nav');
 var navHeight = e.outerHeight();
 
-// if there is a hero
+// if there is a hero or a status bar
 if ($('.c-hero').length != 0) {
   document.onscroll = function() {
     if (window.scrollY >= (heroHeight - navHeight)) {
@@ -24,10 +24,13 @@ if ($('.c-hero').length != 0) {
   };
 } else {
   $('.c-nav').removeClass('c-nav--transparent');
-  //$('.c-nav').addClass('c-nav--normal');
   $('.c-nav').addClass('animate');
   var nextElementsPadding = $('.c-nav').next().css('padding-top');
-  $('.c-nav').next().css('padding-top', 80 + navHeight);
+  if ($('.c-status').length == 0) {
+    $('.c-nav').next().css('padding-top', 80 + navHeight);
+  } else {
+    $('.c-nav').next().css('padding-top', navHeight);
+  }
 }
 
 $('.c-nav__menu-item:last-child').on('mouseover', function(){
