@@ -46,6 +46,10 @@
 	padding: ($padding-base*2) 0;
 	&.gray {
 		background: $color-breaker-gray;
+    // making meta stand out more
+    .meta {
+      color: $color-dark-gray;
+    }
 	}
 	&.purple {
 		background: $color-purple-light;
