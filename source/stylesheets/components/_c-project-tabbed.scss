@@ -68,29 +68,22 @@
 	}
 	&__content--overview {
 		display: flex;
-		justify-content: space-between;
 		align-items: flex-start;
 	}
 	&__content--overview--summary {
 		width: 60%;
 		font-size: 1.2em;
+		line-height: 1.5;
+		@include vendor-prefix(font-smoothing, antialiased);
+		border-right: 1px solid $color-light-gray;
+		padding-right: $padding-base;
 	}
 	&__content--overview--partner {
 		color: $color-dark-gray;
-		font-size: 0.9em;
+		padding-left: $padding-base;
+		font-size: 0.8em;
 		h4 {
 			font-weight: 600;
-		}
-		.geography, .site {
-			display: block;
-			@include vendor-prefix(font-smoothing, initial);
-			font-size: 0.9em;
-		}
-		.site {
-			font-weight: bold;
-			&:hover {
-				color: darken($color-dark-gray, 10%);
-			}
 		}
 	}
 }
