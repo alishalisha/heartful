@@ -24,7 +24,7 @@
 	text-transform: uppercase;
 	letter-spacing: 0.5pt;
 	font-weight: 600;
-  color: lighten($color-medium-gray, 15%);
+  //color: lighten($color-medium-gray, 15%);
 	@include vendor-prefix(font-smoothing, antialiased);
 }
 
@@ -47,14 +47,18 @@
 	&.gray {
 		background: $color-breaker-gray;
     // making meta stand out more
-    .meta {
-      color: $color-dark-gray;
-    }
+    // .meta {
+    //   color: $color-dark-gray;
+    // }
 	}
 	&.purple {
 		background: $color-purple-light;
     color: $color-purple-deep-muted;
 	}
+  &.dark-purple {
+    background: $color-purple-deep-dark;
+    color: #fff;
+  }
   &.white {
     background: #fff;
     border-top: 1px solid $color-light-gray;
@@ -64,10 +68,37 @@
     background: $color-blue-light;
     color: $color-blue-dark;
   }
+  &--impact {
+    position: relative;
+    .content {
+      max-width: 50%;
+      margin: 0 auto;
+      z-index: 1;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.2);
+      z-index: 0;
+    }
+  }
 }
 
 .meta {
 	@include font-meta;
+  &--ul {
+    &:after {
+      content: '';
+      display: block;
+      margin: 5px auto $padding-base/2 auto;
+      max-width: 50px;
+      border-bottom: 3px solid #fff;
+    }
+  }
 }
 
 .block {
@@ -100,8 +131,17 @@
   font-size: 1.5em;
 }
 
+.xl {
+  font-size: 2em;
+}
+
 .roboto {
   @include font-subhed;
+  em {
+    @include font-meta;
+    font-style: normal;
+    font-weight: 700;
+  }
 }
 
 .ma {
