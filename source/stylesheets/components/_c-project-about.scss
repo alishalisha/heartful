@@ -6,19 +6,19 @@
     background-size: cover;
   }
   &__overview {
-    margin-left: $padding-base;
+    margin-right: $padding-base;
     width: 60%;
+    font-size: 1.1em;
   }
   &__meta {
     list-style: none;
     margin: 0;
     padding: 0;
     line-height: 2;
-    font-size: 0.8em;
+    font-size: 0.9em;
     color: $color-medium-gray;
   }
   &__link {
-    //font-weight: bold;
     color: $color-medium-gray;
     &:hover {
       color: $color-purple-muted;
