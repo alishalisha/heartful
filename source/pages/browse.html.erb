@@ -1,0 +1,59 @@
+---
+title: Heartful.ly Components
+---
+<%= partial "svg" %>
+
+<%= partial "components/nav" %>
+<div class="mb--xl">
+<div class="test center">
+  <h1 class="c-project-header__title">Browse Projects</h1>
+</div>
+</div>
+<div class="c-breaker purple">
+  <div class="test center large">
+    Heartful.ly wedding registries benefit these many programs around the world.
+  </div>
+</div>
+<div class="flex test">
+
+  <div class="pad flex-2">
+    <form>
+      <div class="inline" style="margin-right: 20px;">
+        <label class="block mb--small">Filter by region</label>
+        <select class="vm">
+          <option>Option one</option>
+          <option>Another option</option>
+        </select>
+      </div>
+
+      <div class="inline">
+        <label class="block mb--small">Filter by issue</label>
+        <select class="vm">
+          <option>Option one</option>
+          <option>Another option</option>
+        </select>
+      </div>
+    </form>
+  </div>
+  <div class="flex-2"></div>
+</div>
+
+<div class="test">
+  <%= partial "components/project-mini" %>
+  <%= partial "components/project-mini" %>
+  <%= partial "components/project-mini" %>
+  <%= partial "components/project-mini" %>
+</div>
+
+<!-- impact breaker -->
+<div class="c-breaker purple center">
+impact breaker tk tk 
+</div>
+
+<!-- make this into a cta component -->
+<div class="c-breaker center">
+  <svg class="c-icon c-icon--status"><use xlink:href="#icon-globe"></use></svg>
+  <h3 class="roboto large mb">Are you ready to <span style="border-bottom: 1px solid purple;">share the love?</span></h3>
+  <button class="c-button c-button--primary">Create a registry</button>
+</div>
+<%= partial "components/footer" %>

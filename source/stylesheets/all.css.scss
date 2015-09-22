@@ -6,7 +6,7 @@
 
 body {
 	color: $color-text;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: 'Avenir Next', 'Open Sans', Arial, sans-serif;
   font-size: 16px;
 }
 
@@ -97,3 +97,33 @@ th {
 
 th { vertical-align: bottom }
 td { vertical-align: top }
+
+// homepage breakers
+.c-home-breaker {
+	position: relative;
+	padding: 200px 0;
+	background: url('http://www.garancedore.fr/wp-content/uploads/2015/07/hawaii-beach_garance-dore.jpg');
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1pt;
+	font-size: 1.4em;
+	h2 {
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		z-index: 1;
+	}
+}
+
+.overlay {
+	position: absolute;
+	z-index: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.5);
+}
