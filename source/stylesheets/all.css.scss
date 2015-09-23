@@ -16,6 +16,10 @@ a, a:visited, a:active {
 	@include vendor-prefix(transition, 0.1s ease-in-out);
 }
 
+p {
+	line-height: 1.4;
+}
+
 h1, h2, h3, h4, h5, p {
 	margin: 0;
 }
@@ -53,8 +57,8 @@ h1, h2, h3, h4, h5, p {
 .c-status {
 	background: $color-warning-bg;
 	color: #fff;
-	font-size: 0.8em;
-	padding: $padding-base/4 0;
+	font-size: 0.9em;
+	padding: $padding-base/2 0;
 }
 
 // tables
@@ -126,4 +130,28 @@ td { vertical-align: top }
 	right: 0;
 	bottom: 0;
 	background: rgba(0,0,0,0.5);
+}
+
+// Admin page
+.c-admin {
+	&__heading {
+		font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    color: #726E7D;
+	}
+	&__links {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			color: $color-purple-deep;
+		}
+		li:not(:last-child) {
+			margin-bottom: 10px;
+		}
+		li:hover {
+			color: $color-purple-deep-dark;
+		}
+	}
 }
