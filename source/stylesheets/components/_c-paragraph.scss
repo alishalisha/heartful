@@ -1,4 +1,5 @@
 .c-paragraph {
+	max-width: 50em;
 	&__heading {
 		margin-bottom: $padding-base/4;
 		@include font-heading;

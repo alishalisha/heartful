@@ -37,6 +37,8 @@
     border-bottom: 1px solid $color-light-gray;
     border-radius: 0 0 10px 10px;
     line-height: 1.6;
-    font-size: 0.9em;
+  }
+  @media (max-width: $break-large) {
+    margin-bottom: $padding-base;
   }
 }

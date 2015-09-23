@@ -109,6 +109,10 @@
   padding: $padding-base 0;
 }
 
+.pad-lr {
+  padding: 0 $padding-base;
+}
+
 .stretch {
   width: 100%;
 }
@@ -221,6 +225,13 @@
   justify-content: space-between;
 }
 
+// Overrides justify-content space-around to be flex-start
+// so that items do not have large awkward spaces in between
+// and that items are not weirdly centered.
+.flex--start {
+  justify-content: flex-start;
+}
+
 // if you want flexbox in a two column layout
 .flex-2 {
 	width: 45%;
@@ -241,4 +252,16 @@
   border-radius: 5px;
   background: #fff;
   box-shadow: 0 1px 0 0 hsla(0, 0%, 0%, 0.1);
+}
+
+// Links
+.link--danger {
+  color: $color-danger;
+  &:hover {
+    color: darken($color-danger, 20%);
+  }
+}
+
+.link--neutral {
+  color: $color-dark-gray;
 }

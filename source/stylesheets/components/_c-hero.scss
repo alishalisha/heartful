@@ -1,9 +1,13 @@
 .c-hero {
-	background: url('http://saavedraphoto.com/wp-content/uploads/2013/03/san-francisco-engagement-photography-AH-01.jpg');
+	background: url('http://cdn0.stocksy.com/a/9Gy200/z0/708297.jpg');
+	background-position: 50% 50%;
 	height: 800px;
 	position: relative;
 	background-size: cover;
 	color: #fff;
+	@media (max-width: $break-large) {
+		height: 450px;
+	}
 	&:before {
 		content: '';
 		position: absolute;
@@ -20,11 +24,20 @@
 		width: 100%;
 		top: 40%;
 		text-align: center;
+		@media (max-width: $break-large) {
+			top: 40%;
+		}
+		@media (max-width: $break-small) {
+			top: 30%;
+		}
 	}
 	&__couple {
 		@include font-fancy;
 		font-size: 5.5em;
 		margin-bottom: $padding-base/4;
+		@media (max-width: $break-large) {
+			font-size: 4em;
+		}
 	}
 	&__date {
 		@include font-subhed;

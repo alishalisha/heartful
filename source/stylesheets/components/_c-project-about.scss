@@ -4,11 +4,20 @@
     height: 235px;
     background: url('http://d11sa1anfvm2xk.cloudfront.net/index/versions/campaigners/images/clean-water@2x.jpg');
     background-size: cover;
+    @media (max-width: $break-large) {
+      width: 100%;
+      height: 400px;
+    }
   }
   &__overview {
     margin-right: $padding-base;
     width: 60%;
     font-size: 1.1em;
+    @media (max-width: $break-large) {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: $padding-base;
+    }
   }
   &__meta {
     list-style: none;

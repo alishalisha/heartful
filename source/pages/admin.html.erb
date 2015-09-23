@@ -4,7 +4,6 @@ title: Admin
 <%= partial "svg" %>
 
 <%= partial "components/nav" %>
-<%#= partial "components/hero" %>
 <div class="c-breaker" style="background-color: #7D72DE; background-image: url('http://cdn1.stocksy.com/a/ciA000/z0/41206.jpg'); background-size: cover; background-position: 30% 30%; color: white;">
   <div class="test center">
     <h1 class="roboto">Leslie & Jordan</h1>
@@ -14,10 +13,24 @@ title: Admin
   <div class="c-circle" style="width: 150px; height: 150px; margin-top: -100px; box-shadow: 0px 1px 2px 2px rgba(0,0,0,0.2)">
   </div>
   <div class="test">
-    <div class="flex flex--sb mb--large">
+    <div class="r-flex flex--sb mb--large">
       <div class="border flex-2">
-        <h2 class="c-admin__heading mb">Your Project</h2>
+        <h2 class="c-admin__heading mb">Your Selected Project</h2>
         <p>Thanks to your generosity, your registry has helped <strong>EcoSac</strong> raise <strong>$600</strong> so far.</p>
+        <div class="c-tiny-project nudge-top">
+            <div class="c-tiny-project__photo"></div>
+            <div class="c-tiny-project__info">
+              <h3 class="mb--small">Bring Electricity to a Vocational School For Vulnerable Children</h3>
+              <p class="mb--small">This entrepreneurship program expands job opportunities for young people in Senegal and makes clean, affordable energy products accessible to those who need them most.</p>
+              <ul class="c-project-about__meta">
+                <li>
+                  <svg class="c-icon c-icon--inline" title="location"><use xlink:href="#icon-map"></use></svg> Tanzania
+                </li>
+                <li><svg class="c-icon c-icon--inline" title="location"><use xlink:href="#icon-link"></use></svg> <a class="c-project-about__link" href="#">helpsintl.org</a></li>
+              </ul>
+              <a href="#" class="link--secondary inline nudge-top--small">Learn more &rarr;</a>
+            </div>
+        </div>
       </div>
       <div class="border flex-2">
         <h2 class="c-admin__heading mb">Registry Admin</h2>
@@ -25,7 +38,8 @@ title: Admin
           <li><a href="#">Edit registry</a></li>
           <li><a href="#">Change email</a></li>
           <li><a href="#">Change password</a></li>
-          <li><a href="#">Delete registry</a></li>
+          <li><a href="#">Log out</a></li>
+          <li><a href="#" class="link--danger">Delete registry</a></li>
         </ul>
       </div>
     </div>

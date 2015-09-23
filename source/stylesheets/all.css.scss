@@ -17,7 +17,7 @@ a, a:visited, a:active {
 }
 
 p {
-	line-height: 1.4;
+	line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, p {
@@ -28,6 +28,10 @@ h1, h2, h3, h4, h5, p {
 .test {
 	max-width: 960px;
 	margin: 0 auto;
+	@media (max-width: $break-large) {
+		padding-left: $padding-base;
+		padding-right: $padding-base;
+	}
 }
 
 .c-card {
@@ -152,6 +156,51 @@ td { vertical-align: top }
 		}
 		li:hover {
 			color: $color-purple-deep-dark;
+		}
+	}
+}
+
+//responsive flex wrapper will collapse into
+// display: block on smaller breakpoints
+.r-flex {
+	display: flex;
+	justify-content: space-around;
+  align-items: flex-start;	
+	@media (max-width: $break-large) {
+		display: block;
+		.flex-2 {
+			width: 100%;
+			margin-bottom: $padding-base;
+		}
+	}
+}
+
+// tiny project card (to go into create a registry steps)
+.c-tiny-project {
+	border: 1px solid $color-light-gray;
+	input {
+		margin-left: $padding-base;
+	}
+	&__photo,
+	&__info {
+		vertical-align: top;
+	}
+	&__photo {
+		display: inline-block;
+		min-height: 200px;
+		width: 100%;
+		background-image: url('http://cdn1.stocksy.com/a/R5U000/z0/115657.jpg');
+		background-size: cover;
+		background-position: 50% 50%;
+	}
+	&__info {
+		display: inline-block;
+		padding: $padding-base/2;
+	}
+	@media (max-width: $break-large) {
+		margin-bottom: $padding-base/2;
+		&.flex-2 {
+			width: 100%;
 		}
 	}
 }

@@ -33,6 +33,10 @@ $navheight: 65px;
   background: #fff;
   font-size: 0.9em;
 
+  @media (max-width: $break-medium) {
+    display: none;
+  }
+
   &--normal {
     position: relative;
   }

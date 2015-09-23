@@ -5,6 +5,12 @@
 	background: #fff;
 	@include vendor-prefix(transition, 0.2s ease-in-out);
 	box-shadow: 0 1px 0 0 hsla(0, 0%, 0%, 0.1);
+	// on smaller screens, expand to 100% width
+	&.flex-2 {
+		@media (max-width: $break-large) {
+			width: 100%;
+		}
+	}
 	&:hover {
 		@include vendor-prefix(transform, translateY(-10px));
 	}
