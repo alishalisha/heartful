@@ -9,6 +9,9 @@
       height: 400px;
     }
   }
+  &__partner {
+    margin-bottom: 5px;
+  }
   &__overview {
     margin-right: $padding-base;
     width: 60%;
@@ -23,13 +26,13 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    line-height: 2;
+    line-height: 1.7;
     font-size: 0.9em;
     color: $color-medium-gray;
   }
   &__link {
-    color: $color-medium-gray;
     &:hover {
+      color: $color-medium-gray;
       color: $color-purple-muted;
     }
   }
