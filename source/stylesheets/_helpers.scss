@@ -7,10 +7,9 @@
 }
 
 @mixin font-heading {
-  font-weight: 700;
+  font-weight: normal;
   font-size: 1.35rem;
   color: #525252;
-  //font-family: 'Lora', Georgia, Times New Roman, serif;
 }
 
 @mixin font-subhed {
@@ -43,13 +42,12 @@
 }
 
 .c-breaker {
-	padding: ($padding-base*2) 0;
+	padding: ($padding-base*4) 0;
+  @media (max-width: $break-medium) {
+    padding: ($padding-base*2) 0;
+  }
 	&.gray {
 		background: $color-breaker-gray;
-    // making meta stand out more
-    // .meta {
-    //   color: $color-dark-gray;
-    // }
 	}
 	&.purple {
 		background: $color-purple-light;

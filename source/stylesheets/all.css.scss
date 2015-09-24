@@ -178,6 +178,7 @@ td { vertical-align: top }
 // tiny project card (to go into create a registry steps)
 .c-tiny-project {
 	border: 1px solid $color-light-gray;
+	font-size: 0.8em;
 	input {
 		margin-left: $padding-base;
 	}
@@ -202,5 +203,16 @@ td { vertical-align: top }
 		&.flex-2 {
 			width: 100%;
 		}
+	}
+}
+
+// about the couple section
+.c-couple {
+	padding: $padding-base*2 0;
+	border-top: 1px solid $color-light-gray;
+	border-bottom: 1px solid $color-light-gray;
+	&__info {
+		max-width: 35em;
+		margin: 0 auto;
 	}
 }
