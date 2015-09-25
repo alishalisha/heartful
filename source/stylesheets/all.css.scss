@@ -1,0 +1,218 @@
+@import '!manifest';
+
+* {
+	@include vendor-prefix(box-sizing, border-box);
+}
+
+body {
+	color: $color-text;
+  font-family: 'Avenir Next', 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+}
+
+a, a:visited, a:active {
+	color: inherit;
+	text-decoration: none;
+	@include vendor-prefix(transition, 0.1s ease-in-out);
+}
+
+p {
+	line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, p {
+	margin: 0;
+}
+
+// testing
+.test {
+	max-width: 960px;
+	margin: 0 auto;
+	@media (max-width: $break-large) {
+		padding-left: $padding-base;
+		padding-right: $padding-base;
+	}
+}
+
+.c-card {
+	font-size: 0.9em;
+	background: #fff;
+	padding: $padding-base;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px 0 hsla(0, 0%, 0%, 0.1);
+}
+
+.c-create__line {
+	display: inline-block;
+	border-top: 2px solid $color-light-gray;
+	height: 1px;
+	width: 50px;
+}
+
+.c-create__step {
+	font-weight: bold;
+	font-size: 0.9em;
+	color: $color-dark-gray;
+}
+
+.c-status-wrapper {
+}
+
+.c-status {
+	background: $color-warning-bg;
+	color: #fff;
+	font-size: 0.9em;
+	padding: $padding-base/2 0;
+}
+
+// tables
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+table {
+	border: 1px solid #eee;
+}
+
+.scroll-table {
+	border: 1px solid red;
+	width: 200px;
+	height: 400px;
+	overflow: auto;
+}
+
+th, td {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #eee;
+	padding: 10px;
+}
+tr:last-child {
+	border-bottom: 0;
+}
+td:last-child {
+	max-width: 300px;
+	font-size: 0.8em;
+}
+
+th {
+  text-align: left;
+}
+
+th { vertical-align: bottom }
+td { vertical-align: top }
+
+// homepage breakers
+.c-home-breaker {
+	position: relative;
+	padding: 200px 0;
+	background: url('http://www.garancedore.fr/wp-content/uploads/2015/07/hawaii-beach_garance-dore.jpg');
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1pt;
+	font-size: 1.4em;
+	h2 {
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		z-index: 1;
+	}
+}
+
+.overlay {
+	position: absolute;
+	z-index: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.5);
+}
+
+// Admin page
+.c-admin {
+	&__heading {
+		font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    color: #726E7D;
+	}
+	&__links {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			color: $color-purple-deep;
+		}
+		li:not(:last-child) {
+			margin-bottom: 10px;
+		}
+		li:hover {
+			color: $color-purple-deep-dark;
+		}
+	}
+}
+
+//responsive flex wrapper will collapse into
+// display: block on smaller breakpoints
+.r-flex {
+	display: flex;
+	justify-content: space-around;
+  align-items: flex-start;	
+	@media (max-width: $break-large) {
+		display: block;
+		.flex-2 {
+			width: 100%;
+			margin-bottom: $padding-base;
+		}
+	}
+}
+
+// tiny project card (to go into create a registry steps)
+.c-tiny-project {
+	border: 1px solid $color-light-gray;
+	font-size: 0.95em;
+	input {
+		margin-left: $padding-base;
+	}
+	&__photo,
+	&__info {
+		vertical-align: top;
+	}
+	&__photo {
+		display: inline-block;
+		min-height: 200px;
+		width: 100%;
+		background-image: url('http://cdn1.stocksy.com/a/R5U000/z0/115657.jpg');
+		background-size: cover;
+		background-position: 50% 50%;
+	}
+	&__info {
+		display: inline-block;
+		padding: $padding-base/2;
+	}
+	@media (max-width: $break-large) {
+		margin-bottom: $padding-base/2;
+		&.flex-2 {
+			width: 100%;
+		}
+	}
+}
+
+// about the couple section
+.c-couple {
+	padding: $padding-base*2 0;
+	border-top: 1px solid $color-light-gray;
+	border-bottom: 1px solid $color-light-gray;
+	&__info {
+		max-width: 35em;
+		margin: 0 auto;
+	}
+}

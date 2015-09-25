@@ -1,0 +1,51 @@
+.c-hero {
+	background: url('http://cdn0.stocksy.com/a/9Gy200/z0/708297.jpg');
+	background-position: 50% 50%;
+	height: 800px;
+	position: relative;
+	background-size: cover;
+	color: #fff;
+	@media (max-width: $break-large) {
+		height: 450px;
+	}
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0,0,0,0.2);
+		z-index: 0;
+	}
+	&__container {
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+		top: 40%;
+		text-align: center;
+		@media (max-width: $break-large) {
+			top: 40%;
+		}
+		@media (max-width: $break-small) {
+			top: 30%;
+		}
+	}
+	&__couple {
+		@include font-fancy;
+		font-size: 5.5em;
+		margin-bottom: $padding-base/4;
+		@media (max-width: $break-large) {
+			font-size: 4em;
+		}
+	}
+	&__date {
+		@include font-subhed;
+		font-size: 1.3em;
+		letter-spacing: 2pt;
+		text-transform: uppercase;
+	}
+	&--home {
+		background: $color-purple-deep-dark;
+	}
+}

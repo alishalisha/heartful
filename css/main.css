@@ -1,0 +1,119 @@
+/*
+
+TYPOGRAPHY CHOICES
+===================
+
+1. HEADLINES
+- Fauna, 1 style.
+- Montserrat, 2 styles.
+- Sanchez, 2 styles.
+- Slabo (?), 1 style
+
+
+2. PARAGRAPH FONTS
+- Noto Serif, 4 styles.
+- PT Serif, 4 styles.
+- Karma, 5 styles.
+- Martel, 7 styles.
+
+p: Cabin, Muli
+
+
+
+*/
+* {
+  -webkit-box-sizing: border-box; }
+
+.container {
+  width: 90%;
+  margin: 3em auto; }
+
+.block {
+  display: inline-block;
+  width: 33.33%;
+  padding: 0 2em;
+  vertical-align: top; }
+
+.type-test {
+  margin-bottom: 3em;
+  padding-bottom: 3em;
+  border-bottom: 1px solid #f0f0f0; }
+  .type-test h3 {
+    color: #ce27a7;
+    margin-bottom: 10px; }
+  .type-test p {
+    color: #242424;
+    margin: 0; }
+  .type-test__type {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    color: gray; }
+  .type-test__one h3 {
+    font-family: "Fauna One";
+    font-size: 1.5em; }
+  .type-test__one p {
+    font-family: "Noto Serif";
+    line-height: 1.6; }
+  .type-test__two h3 {
+    font-family: "Montserrat";
+    font-size: 1.4em; }
+  .type-test__two p {
+    font-family: "Martel";
+    line-height: 1.7; }
+  .type-test__three h3 {
+    font-family: "Sanchez";
+    font-size: 1.4em; }
+  .type-test__three p {
+    font-family: "Martel";
+    line-height: 1.7; }
+  .type-test__four h3 {
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 1.3em; }
+  .type-test__four p {
+    font-family: "Lato";
+    line-height: 1.4; }
+  .type-test__five h3 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.3em; }
+  .type-test__five p {
+    font-family: "Source Sans Pro";
+    line-height: 1.4; }
+  .type-test__six h3 {
+    font-family: "Nunito";
+    font-size: 1.4em; }
+  .type-test__six p {
+    font-family: "Lora";
+    line-height: 1.4;
+    font-size: 18px; }
+  .type-test__seven h3 {
+    font-family: "Lato";
+    font-size: 1.4em; }
+  .type-test__seven p {
+    font-family: "Lora";
+    line-height: 1.4;
+    font-size: 18px; }
+  .type-test__eight h3 {
+    font-family: "Montserrat";
+    font-size: 1.4em; }
+  .type-test__eight p {
+    font-family: "Lora";
+    line-height: 1.4;
+    font-size: 18px; }
+  .type-test__nine h3 {
+    font-family: "Nunito";
+    font-size: 1.4em; }
+  .type-test__nine p {
+    font-family: "Source Sans Pro";
+    line-height: 1.4;
+    font-size: 18px; }
+  .type-test__ten h3 {
+    font-family: "Montserrat";
+    font-size: 1.6em; }
+  .type-test__ten p {
+    font-family: "Fauna One";
+    line-height: 1.6;
+    font-size: 18px; }
+
+/*# sourceMappingURL=main.css.map */

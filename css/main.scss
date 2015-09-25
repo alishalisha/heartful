@@ -1,0 +1,191 @@
+/*
+
+TYPOGRAPHY CHOICES
+===================
+
+1. HEADLINES
+- Fauna, 1 style.
+- Montserrat, 2 styles.
+- Sanchez, 2 styles.
+- Slabo (?), 1 style
+
+
+2. PARAGRAPH FONTS
+- Noto Serif, 4 styles.
+- PT Serif, 4 styles.
+- Karma, 5 styles.
+- Martel, 7 styles.
+
+p: Cabin, Muli
+
+
+
+*/
+
+$color-heading: hsl(314, 68%, 48%);
+$color-paragraph: hsl(0, 0%, 14%);
+
+$fauna: 'Fauna One';
+$noto: 'Noto Serif';
+$mont: 'Montserrat';
+$martel: 'Martel';
+$sanchez: 'Sanchez';
+$lato: 'Lato';
+$source: 'Source Sans Pro';
+$karma: 'Karma';
+$nunito: 'Nunito';
+$lora: 'Lora';
+
+* {
+  -webkit-box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: 3em auto;
+}
+
+.block {
+  display: inline-block;
+  width: 33.33%;
+  padding: 0 2em;
+  vertical-align: top;
+}
+
+.type-test {
+  margin-bottom: 3em;
+  padding-bottom: 3em;
+  border-bottom: 1px solid hsl(0, 0%, 94%);
+
+  h3 {
+    color: $color-heading;
+    margin-bottom: 10px;
+  }
+  p {
+    color: $color-paragraph;
+    margin: 0;
+  }
+
+  &__type {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    color: gray;
+  }
+
+	&__one {
+		h3 {
+			font-family: $fauna;
+      font-size: 1.5em;
+		}
+		p {
+      font-family: $noto;
+      line-height: 1.6;
+		}
+	}
+
+  &__two {
+    h3 {
+      font-family: $mont;
+      font-size: 1.4em;
+    }
+    p {
+      font-family: $martel;
+      line-height: 1.7;
+    }
+  }
+
+  &__three {
+    h3 {
+      font-family: $sanchez;
+      font-size: 1.4em;
+    }
+    p {
+      font-family: $martel;
+      line-height: 1.7;
+    }
+  }
+
+  &__four {
+    h3 {
+      font-family: $lato;
+      font-weight: 700;
+      font-size: 1.3em;
+    }
+    p {
+      font-family: $lato;
+      line-height: 1.4;
+    }
+  }
+
+  &__five {
+    h3 {
+      font-family: $mont;
+      font-weight: 700;
+      font-size: 1.3em;
+    }
+    p {
+      font-family: $source;
+      line-height: 1.4;
+    }
+  }
+
+  &__six {
+    h3 {
+      font-family: $nunito;
+      font-size: 1.4em;
+    }
+    p {
+      font-family: $lora;
+      line-height: 1.4;
+      font-size: 18px;
+    }
+  }
+
+  &__seven {
+    h3 {
+      font-family: $lato;
+      font-size: 1.4em;
+    }
+    p {
+      font-family: $lora;
+      line-height: 1.4;
+      font-size: 18px;
+    }
+  }
+
+  &__eight {
+    h3 {
+      font-family: $mont;
+      font-size: 1.4em;
+    }
+    p {
+      font-family: $lora;
+      line-height: 1.4;
+      font-size: 18px;
+    }
+  }
+
+  &__nine {
+    h3 {
+      font-family: $nunito;
+      font-size: 1.4em;
+    }
+    p {
+      font-family: $source;
+      line-height: 1.4;
+      font-size: 18px;
+    }
+  }
+
+  &__ten {
+    h3 {
+      font-family: $mont;
+      font-size: 1.6em;
+    }
+    p {
+      font-family: $fauna;
+      line-height: 1.6;
+      font-size: 18px;
+    }
+  }
+}
