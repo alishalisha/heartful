@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
@@ -163,6 +164,18 @@
   </g>
 </symbol>
 
+<!-- Info -->
+<symbol id="icon-info" viewBox="0 0 1024 1024">
+  <title>info</title>
+  <path class="path1" d="M554 384v-86h-84v86h84zM554 726v-256h-84v256h84zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125z"></path>
+</symbol>
+
+<!-- Eye/Preview -->
+<symbol id="icon-eye" viewBox="0 0 1024 1024">
+  <title>preview</title>
+  <path class="path1" d="M512 192c-223.318 0-416.882 130.042-512 320 95.118 189.958 288.682 320 512 320 223.312 0 416.876-130.042 512-320-95.116-189.958-288.688-320-512-320zM764.45 361.704c60.162 38.374 111.142 89.774 149.434 150.296-38.292 60.522-89.274 111.922-149.436 150.296-75.594 48.218-162.89 73.704-252.448 73.704-89.56 0-176.858-25.486-252.452-73.704-60.158-38.372-111.138-89.772-149.432-150.296 38.292-60.524 89.274-111.924 149.434-150.296 3.918-2.5 7.876-4.922 11.86-7.3-9.96 27.328-15.41 56.822-15.41 87.596 0 141.382 114.616 256 256 256 141.382 0 256-114.618 256-256 0-30.774-5.452-60.268-15.408-87.598 3.978 2.378 7.938 4.802 11.858 7.302v0zM512 416c0 53.020-42.98 96-96 96s-96-42.98-96-96 42.98-96 96-96 96 42.982 96 96z"></path>
+</symbol>
+
 </defs>
 </svg>
 
@@ -195,30 +208,47 @@
   </ul>
 </header>
 
-<div class="c-breaker gray">
-  <div class="test">
-     <h1>Leslie & Jordan</h1>
+<div class="c-breaker" style="background-color: #7D72DE; background-image: url('http://cdn1.stocksy.com/a/ciA000/z0/41206.jpg'); background-size: cover; background-position: 30% 30%; color: white;">
+  <div class="test center">
+    <h1 class="roboto">Leslie & Jordan</h1>
   </div>
 </div>
-<div class="c-breaker">
+<div class="pad" style="background: #f5f5f5;">
+  <div class="c-circle ma" style="border-radius: 50%; width: 150px; height: 150px; margin-top: -100px; box-shadow: 0px 1px 2px 2px rgba(0,0,0,0.2)">
+  </div>
   <div class="test">
-    <div class="flex flex--sb mb--large">
-      <div class="border flex-2 small">
-        <h2 class="mb--small">Your Project</h2>
-        <p>Thanks to your generosity, your registry has helped EcoSac raise <strong>$600</strong> so far.</p>
+    <div class="r-flex flex--sb mb--large">
+      <div class="border flex-2">
+        <h2 class="c-admin__heading mb">Your Selected Project</h2>
+        <p>Thanks to your generosity, your registry has helped <strong>EcoSac</strong> raise <strong>$600</strong> so far.</p>
+        <div class="c-tiny-project nudge-top">
+            <div class="c-tiny-project__photo"></div>
+            <div class="c-tiny-project__info">
+              <h3 class="mb--small">Bring Electricity to a Vocational School For Vulnerable Children</h3>
+              <p class="mb--small">This entrepreneurship program expands job opportunities for young people in Senegal and makes clean, affordable energy products accessible to those who need them most.</p>
+              <ul class="c-project-about__meta">
+                <li>
+                  <svg class="c-icon c-icon--inline" title="location"><use xlink:href="#icon-map"></use></svg> Tanzania
+                </li>
+                <li><svg class="c-icon c-icon--inline" title="location"><use xlink:href="#icon-link"></use></svg> <a class="c-project-about__link" href="#">helpsintl.org</a></li>
+              </ul>
+              <a href="#" class="link--secondary inline nudge-top--small">Learn more &rarr;</a>
+            </div>
+        </div>
       </div>
-      <div class="border flex-2 small">
-        <h2 class="mb--small">Registry Admin</h2>
-        <ul>
-          <li>Edit registry</li>
-          <li>Change email</li>
-          <li>Change password</li>
-          <li>Delete registry</li>
+      <div class="border flex-2">
+        <h2 class="c-admin__heading mb">Registry Admin</h2>
+        <ul class="c-admin__links">
+          <li><a href="#">Edit registry</a></li>
+          <li><a href="#">Change email</a></li>
+          <li><a href="#">Change password</a></li>
+          <li><a href="#">Log out</a></li>
+          <li><a href="#" class="link--danger">Delete registry</a></li>
         </ul>
       </div>
     </div>
-    <div>
-      <h2 class="mb"><svg class="c-icon c-icon--medium" title="gifts"><use xlink:href="#icon-gift"></use></svg> Your Gifted Items</h2>
+    <div class="border">
+      <h2 class="c-admin__heading mb"><svg class="c-icon c-icon--medium" title="gifts"><use xlink:href="#icon-gift"></use></svg> Your Gifted Items</h2>
       <table>
         <thead>
           <tr>
@@ -226,14 +256,28 @@
           </tr>
         </thead>
         <tbody>
-          <tr> <td>sed ipsum aliquid</td> <td>1</td> <td>Isabelle Chung</td> <td>$100</td> <td>Quibusdam sit neque nihil rem alias explicabo. Quisquam saepe aliquid nesciunt quod autem quas. Eligendi est consequuntur maiores nemo velit nulla et dolor dolorem dolores quia et officia numquam. Officiis ipsum non tempora tenetur dolores mollitia consequuntur vero aliquid soluta recusandae ullam est velit</td></tr>
-          <tr> <td>totam minima aut</td> <td>14</td> <td>Mya Jones</td> <td>$100</td> <td>Error tempora quaerat et fugit nisi blanditiis porro debitis maxime similique. Ut excepturi aspernatur sapiente ea doloribus voluptates nihil. Voluptatum voluptas sunt molestias similique blanditiis beatae officia rerum ratione. Impedit non magnam aperiam ut sed aspernatur laboriosam tenetur error</td></tr>
-          <tr> <td>repellendus repudiandae dolores</td> <td>4</td> <td>Pete Watkins</td> <td>$100</td> <td>Vitae minima qui debitis et aut omnis non nam totam dignissimos laborum minima ullam dolores. Velit eos iusto voluptatem necessitatibus unde libero nostrum exercitationem. Autem cumque quisquam dolorem consequatur repellat veritatis et. Exercitationem veritatis dolores et velit nobis neque id dolor deleniti beatae vitae et</td></tr>
+          <tr> <td>neque et fugiat</td> <td>1</td> <td>Nadia Locklear</td> <td>$100</td> <td>Voluptates dolorum sunt consequatur est fugit. Error perspiciatis aliquam similique alias ut ut. A omnis ex veritatis et. Enim quaerat aut harum sit nihil est asperiores dignissimos nisi ex asperiores cupiditate modi</td></tr>
+          <tr> <td>et et suscipit</td> <td>14</td> <td>Alexandra O'Donnell</td> <td>$100</td> <td>Dolor ut sed eos et dolorem aut dolores rerum. Rerum suscipit fugiat nostrum eos. Repellendus aut ab sunt minima. Necessitatibus veniam corrupti ipsa qui numquam</td></tr>
+          <tr> <td>veritatis harum maiores</td> <td>4</td> <td>Liliana Barr</td> <td>$100</td> <td>Porro repellat similique mollitia. Quia recusandae qui ullam reiciendis ut et at placeat impedit aut ipsum. Aperiam quo autem doloribus perspiciatis consequatur ea natus. Maxime illo quo non reiciendis temporibus enim facere quis itaque omnis suscipit</td></tr>
         </tbody>
         </table>
       </div>
   </div>
 </div>
+<footer class="c-footer">
+  <div class="test">
+    About
+    Browse Projects
+    Our Partners
+    FAQ
+
+    Admin
+    View Registry
+    Edit Registry
+    Settings & Admin
+  </div>
+</footer>
+
 
 
     <script src="../../javascripts/all.js" type="text/javascript"></script>
