@@ -1,43 +1,53 @@
 @charset "UTF-8";
-/* line 41, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2f4562");
+@font-face {
+  font-family: 'AvenirNextLTPro-Bold';
+  src: url("fonts/2F4562_0_0.eot");
+  src: url("fonts/2F4562_0_0.eot?#iefix") format("embedded-opentype"), url("fonts/2F4562_0_0.woff2") format("woff2"), url("fonts/2F4562_0_0.woff") format("woff"), url("fonts/2F4562_0_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'AvenirNextLTPro-Regular';
+  src: url("fonts/2F4562_1_0.eot");
+  src: url("fonts/2F4562_1_0.eot?#iefix") format("embedded-opentype"), url("fonts/2F4562_1_0.woff2") format("woff2"), url("fonts/2F4562_1_0.woff") format("woff"), url("fonts/2F4562_1_0.ttf") format("truetype"); }
+/* line 68, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .section {
   margin-bottom: 80px; }
 
-/* line 45, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 72, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .c-breaker {
   padding: 80px 0; }
-  /* line 47, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+  /* line 74, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
   .c-breaker.gray {
     background: #f7f7f7; }
-  /* line 50, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+  /* line 77, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
   .c-breaker.purple {
     background: #efeefb;
     color: #6059A0; }
-  /* line 54, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+  /* line 81, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
   .c-breaker.dark-purple {
     background: #433e6f;
     color: #fff; }
-  /* line 58, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+  /* line 85, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
   .c-breaker.white {
     background: #fff;
     border-top: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd; }
-  /* line 63, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+  /* line 90, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
   .c-breaker.blue {
     background: #C7E7EC;
     color: #147584; }
-  /* line 67, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+  /* line 94, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
   .c-breaker--large {
     padding: 160px 0; }
-  /* line 70, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+  /* line 97, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
   .c-breaker--impact {
     position: relative; }
-    /* line 72, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+    /* line 99, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
     .c-breaker--impact .content {
       max-width: 50%;
       margin: 0 auto;
       z-index: 1; }
-    /* line 77, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+    /* line 104, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
     .c-breaker--impact:before {
       content: '';
       position: absolute;
@@ -48,18 +58,17 @@
       background: rgba(0, 0, 0, 0.2);
       z-index: 0; }
 
-/* line 90, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 117, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .meta {
-  font-family: 'Avenir Next', Arial, sans-serif;
+  font-family: 'AvenirNextLTPro-Bold', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.5pt;
-  font-weight: 600;
   -webkit-font-smoothing: antialiased;
   -ms-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased; }
-  /* line 93, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+  /* line 120, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
   .meta--ul:after {
     content: '';
     display: block;
@@ -67,52 +76,51 @@
     max-width: 50px;
     border-bottom: 3px solid #fff; }
 
-/* line 103, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 130, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .block {
   display: block; }
 
-/* line 107, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 134, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .pad {
   padding: 40px 0; }
 
-/* line 111, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 138, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .pad-lr {
   padding: 0 40px; }
 
-/* line 115, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 142, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .stretch {
   width: 100%; }
 
-/* line 119, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 146, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .skinny {
   width: 75%; }
 
-/* line 123, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 150, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .quiet {
   color: #777; }
 
-/* line 129, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 156, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .small {
   font-size: 0.85em; }
 
-/* line 133, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 160, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .large {
   font-size: 1.5em; }
 
-/* line 137, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 164, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .xl {
   font-size: 2em; }
 
-/* line 141, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 168, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .roboto {
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 300; }
-  /* line 143, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+  /* line 170, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
   .roboto em {
-    font-family: 'Avenir Next', Arial, sans-serif;
+    font-family: 'AvenirNextLTPro-Bold', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.5pt;
-    font-weight: 600;
     -webkit-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
@@ -121,98 +129,98 @@
     font-style: normal;
     font-weight: 700; }
 
-/* line 150, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 177, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .ma {
   margin: 0 auto; }
 
-/* line 154, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 181, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .mb {
   margin-bottom: 20px; }
 
-/* line 158, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 185, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .mb--large {
   margin-bottom: 40px; }
 
-/* line 162, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 189, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .mb--xl {
   margin-bottom: 80px; }
 
-/* line 166, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 193, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .mb--small {
   margin-bottom: 10px; }
 
-/* line 170, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 197, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .pt {
   padding-top: 40px; }
 
-/* line 174, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 201, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .pt-l {
   padding-top: 80px; }
 
-/* line 178, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 205, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .inline {
   display: inline-block; }
 
-/* line 182, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 209, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .vm {
   vertical-align: middle; }
 
-/* line 186, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 213, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .nudge-top {
   margin-top: 40px; }
 
-/* line 190, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 217, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .nudge-top--small {
   margin-top: 20px; }
 
-/* line 194, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 221, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .nudge-top--large {
   margin-top: 80px; }
 
-/* line 198, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 225, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .center {
   text-align: center; }
 
-/* line 203, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 230, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .col {
   display: inline-block;
   vertical-align: top;
   padding-right: 40px; }
-  /* line 207, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+  /* line 234, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
   .col:last-child {
     padding-right: 0; }
 
-/* line 212, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 239, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .col-1-2 {
   width: 49%; }
 
-/* line 217, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 244, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .flex {
   display: flex;
   justify-content: space-around;
   align-items: flex-start; }
 
-/* line 223, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 250, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .flex--sb {
   justify-content: space-between; }
 
-/* line 230, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 257, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .flex--start {
   justify-content: flex-start; }
 
-/* line 235, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 262, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .flex-2 {
   width: 45%; }
 
-/* line 240, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 267, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .flex-60 {
   width: 50%; }
 
-/* line 244, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 271, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .flex-40 {
   width: 40%; }
 
-/* line 248, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 275, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .border {
   padding: 40px;
   border: 0 px solid #eee;
@@ -220,14 +228,14 @@
   background: #fff;
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1); }
 
-/* line 257, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 284, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .link--danger {
   color: #FF4D4D; }
-  /* line 259, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+  /* line 286, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
   .link--danger:hover {
     color: #e60000; }
 
-/* line 264, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
+/* line 291, /Users/alisharamos/Projects/heartful/source/stylesheets/_helpers.scss */
 .link--neutral {
   color: #5e5e5e; }
 
@@ -236,10 +244,9 @@
   margin: 0 0 10px 0;
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Avenir Next', Arial, sans-serif;
+  font-family: 'AvenirNextLTPro-Bold', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.5pt;
-  font-weight: 600;
   -webkit-font-smoothing: antialiased;
   -ms-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -328,10 +335,9 @@
     text-align: center; }
   /* line 26, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
   .c-project-tabbed__header--subtitle {
-    font-family: 'Avenir Next', Arial, sans-serif;
+    font-family: 'AvenirNextLTPro-Bold', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.5pt;
-    font-weight: 600;
     -webkit-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
@@ -365,6 +371,7 @@
     padding-left: 20px;
     border-right: 5px solid transparent;
     font-size: 0.9em;
+    font-family: 'AvenirNextLTPro-Bold', Helvetica, Arial, sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5pt;
@@ -374,26 +381,26 @@
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
     font-smoothing: antialiased; }
-    /* line 58, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+    /* line 59, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
     .c-project-tabbed__menu-item.active, .c-project-tabbed__menu-item:hover {
       border-left: 5px solid #dcd9f6;
       color: #7D72DE; }
-  /* line 64, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+  /* line 65, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
   .c-project-tabbed__content {
     padding: 40px; }
     @media (max-width: 60em) {
-      /* line 64, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+      /* line 65, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
       .c-project-tabbed__content {
         padding: 40px 0; } }
-  /* line 70, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+  /* line 71, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
   .c-project-tabbed__content--overview--summary {
     font-size: 1.5em;
     min-width: 50%; }
     @media (max-width: 60em) {
-      /* line 70, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+      /* line 71, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
       .c-project-tabbed__content--overview--summary {
         margin-bottom: 40px; } }
-  /* line 77, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+  /* line 78, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
   .c-project-tabbed__content--overview--partner {
     min-width: 25%;
     margin-left: 20px;
@@ -401,25 +408,27 @@
     padding: 20px;
     border-radius: 5px;
     font-size: 0.9em; }
-    /* line 84, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+    /* line 85, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
     .c-project-tabbed__content--overview--partner h4 {
+      font-family: 'AvenirNextLTPro-Bold', Helvetica, Arial, sans-serif;
       font-weight: 600; }
     @media (max-width: 60em) {
-      /* line 77, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+      /* line 78, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
       .c-project-tabbed__content--overview--partner {
         margin: 0; } }
-  /* line 92, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+  /* line 94, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
   .c-project-tabbed__menu-small {
     border: 2px solid #7D72DE;
     padding: 20px;
     margin-bottom: 40px;
     font-size: 0.9em;
+    font-family: 'AvenirNextLTPro-Bold', Helvetica, Arial, sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5pt;
     color: #7D72DE; }
     @media (min-width: 60em) {
-      /* line 92, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
+      /* line 94, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-project-tabbed.scss */
       .c-project-tabbed__menu-small {
         display: none; } }
 
@@ -593,7 +602,7 @@
   background: #fff;
   text-transform: uppercase;
   letter-spacing: 0.8pt;
-  font-weight: 600;
+  font-family: 'AvenirNextLTPro-Bold', Helvetica, Arial, sans-serif;
   padding: 10px;
   outline: none;
   -webkit-transition: 0.2s ease-in-out;
@@ -646,7 +655,7 @@
   text-transform: uppercase;
   letter-spacing: 1pt;
   padding-bottom: 5px;
-  font-weight: 600;
+  font-family: 'AvenirNextLTPro-Bold', Helvetica, Arial, sans-serif;
   border-bottom: 1px solid #7D72DE; }
   /* line 61, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-button.scss */
   .link--secondary:hover {
@@ -736,7 +745,7 @@
 label {
   margin-right: 10px;
   vertical-align: middle;
-  font-weight: bold; }
+  font-family: 'AvenirNextLTPro-Bold', Helvetica, Arial, sans-serif; }
 
 /* line 8, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-form.scss */
 input,
@@ -921,24 +930,25 @@ input[type="radio"] {
     color: #777;
     font-size: 0.93em;
     text-transform: uppercase;
-    font-weight: 600;
+    font-family: 'AvenirNextLTPro-Bold', Helvetica, Arial, sans-serif;
     letter-spacing: 0.5pt; }
     /* line 117, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
     .c-nav__menu-item:last-child {
       color: #2e2e2e;
       margin-right: 40px;
       text-transform: none;
+      font-family: 'AvenirNextLTPro-Bold', Helvetica, Arial, sans-serif;
       font-weight: 700;
       letter-spacing: 0;
       margin-left: 15px;
       position: relative; }
-      /* line 125, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+      /* line 126, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
       .c-nav__menu-item:last-child:hover {
         color: #2e2e2e; }
-        /* line 127, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+        /* line 128, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
         .c-nav__menu-item:last-child:hover .c-nav__admin-menu {
           opacity: 1; }
-      /* line 131, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+      /* line 132, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
       .c-nav__menu-item:last-child:before {
         content: '';
         position: absolute;
@@ -948,10 +958,10 @@ input[type="radio"] {
         height: 10px;
         border-radius: 50%;
         background: #2BD380; }
-    /* line 142, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+    /* line 143, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
     .c-nav__menu-item:hover {
       color: #2e2e2e; }
-  /* line 146, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+  /* line 147, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
   .c-nav__admin-menu {
     position: absolute;
     opacity: 0;
@@ -963,9 +973,8 @@ input[type="radio"] {
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
     padding: 20px;
     list-style: none; }
-  /* line 158, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
+  /* line 159, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
   .c-nav__admin-menu-item {
-    font-weight: 600;
     letter-spacing: 0;
     line-height: 2; }
     /* line 162, /Users/alisharamos/Projects/heartful/source/stylesheets/components/_c-nav.scss */
@@ -1176,7 +1185,7 @@ h1, h2, h3, h4, h5, p {
 
 /* line 52, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
 .c-create__step {
-  font-weight: bold;
+  font-family: 'AvenirNextLTPro-Bold', Helvetica, Arial, sans-serif;
   font-size: 0.9em;
   color: #5e5e5e; }
 
@@ -1242,7 +1251,7 @@ td {
   text-align: center;
   color: #fff;
   text-transform: uppercase;
-  font-weight: bold;
+  font-family: 'AvenirNextLTPro-Bold', Helvetica, Arial, sans-serif;
   letter-spacing: 1pt;
   font-size: 1.4em; }
   /* line 121, /Users/alisharamos/Projects/heartful/source/stylesheets/all.css.scss */
