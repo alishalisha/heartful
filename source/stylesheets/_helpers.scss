@@ -6,6 +6,34 @@
   #{$name}: #{$argument};
 }
 
+// Custom Fonts
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2f4562");
+
+  
+@font-face {
+  font-family: 'AvenirNextLTPro-Bold';
+  src: url('fonts/2F4562_0_0.eot');
+  src: url('fonts/2F4562_0_0.eot?#iefix') format('embedded-opentype'),
+       url('fonts/2F4562_0_0.woff2') format('woff2'),
+       url('fonts/2F4562_0_0.woff') format('woff'),
+       url('fonts/2F4562_0_0.ttf') format('truetype');
+}
+ 
+  
+@font-face {
+  font-family: 'AvenirNextLTPro-Regular';
+  src: url('fonts/2F4562_1_0.eot');
+  src: url('fonts/2F4562_1_0.eot?#iefix') format('embedded-opentype'),
+  url('fonts/2F4562_1_0.woff2') format('woff2'),
+  url('fonts/2F4562_1_0.woff') format('woff'),
+  url('fonts/2F4562_1_0.ttf') format('truetype');
+}
+
+@mixin avenir-bold {
+  font-family: 'AvenirNextLTPro-Bold', Helvetica, Arial, sans-serif;
+}
+
 @mixin font-heading {
   font-weight: normal;
   font-size: 1.35rem;
@@ -20,10 +48,9 @@
 }
 
 @mixin font-meta {
-	font-family: 'Avenir Next', Arial, sans-serif;
+	font-family: 'AvenirNextLTPro-Bold', Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 0.5pt;
-	font-weight: 600;
   //color: lighten($color-medium-gray, 15%);
 	@include vendor-prefix(font-smoothing, antialiased);
 }

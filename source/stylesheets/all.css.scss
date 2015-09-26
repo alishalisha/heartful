@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 .c-create__step {
-	font-weight: bold;
+	@include avenir-bold;
 	font-size: 0.9em;
 	color: $color-dark-gray;
 }
@@ -115,7 +115,7 @@ td { vertical-align: top }
 	text-align: center;
 	color: #fff;
 	text-transform: uppercase;
-	font-weight: bold;
+	@include avenir-bold;
 	letter-spacing: 1pt;
 	font-size: 1.4em;
 	h2 {
