@@ -9,25 +9,38 @@
 // Custom Fonts
 /* @import must be at top of file, otherwise CSS will not work */
 @import url("//hello.myfonts.net/count/2f4562");
+@import url("//hello.myfonts.net/count/2f456e");
 
   
 @font-face {
   font-family: 'AvenirNextLTPro-Bold';
-  src: url('fonts/2F4562_0_0.eot');
-  src: url('fonts/2F4562_0_0.eot?#iefix') format('embedded-opentype'),
-       url('fonts/2F4562_0_0.woff2') format('woff2'),
-       url('fonts/2F4562_0_0.woff') format('woff'),
-       url('fonts/2F4562_0_0.ttf') format('truetype');
+  src: url('/fonts/2F4562_0_0.eot');
+  src: url('/fonts/2F4562_0_0.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/2F4562_0_0.woff2') format('woff2'),
+       url('/fonts/2F4562_0_0.woff') format('woff'),
+       url('/fonts/2F4562_0_0.ttf') format('truetype');
 }
- 
   
 @font-face {
   font-family: 'AvenirNextLTPro-Regular';
-  src: url('fonts/2F4562_1_0.eot');
-  src: url('fonts/2F4562_1_0.eot?#iefix') format('embedded-opentype'),
-  url('fonts/2F4562_1_0.woff2') format('woff2'),
-  url('fonts/2F4562_1_0.woff') format('woff'),
-  url('fonts/2F4562_1_0.ttf') format('truetype');
+  src: url('/fonts/2F4562_1_0.eot');
+  src: url('/fonts/2F4562_1_0.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/2F4562_1_0.woff2') format('woff2'),
+  url('/fonts/2F4562_1_0.woff') format('woff'),
+  url('/fonts/2F4562_1_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AvenirNextLTPro-Demi';
+  src: url('/fonts/2F456E_0_0.eot');
+  src: url('/fonts/2F456E_0_0.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/2F456E_0_0.woff2') format('woff2'),
+       url('/fonts/2F456E_0_0.woff') format('woff'),
+       url('/fonts/2F456E_0_0.ttf') format('truetype');
+}
+
+@mixin avenir-demi {
+  font-family: 'AvenirNextLTPro-Demi', Helvetica, Arial, sans-serif;
 }
 
 @mixin avenir-bold {
@@ -48,7 +61,7 @@
 }
 
 @mixin font-meta {
-	font-family: 'AvenirNextLTPro-Bold', Helvetica, Arial, sans-serif;
+	@include avenir-demi;
 	text-transform: uppercase;
 	letter-spacing: 0.5pt;
   //color: lighten($color-medium-gray, 15%);

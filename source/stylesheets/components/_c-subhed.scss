@@ -4,6 +4,7 @@
 		text-transform: uppercase;
 		text-align: center;
 		@include font-meta;
+		font-weight: normal;
 		font-size: 0.95em;
 		color: $color-medium-gray;
 	}

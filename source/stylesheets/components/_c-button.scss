@@ -5,7 +5,7 @@
   background: #fff;
   text-transform: uppercase;
   letter-spacing: 0.8pt;
-  @include avenir-bold;
+  @include avenir-demi;
   padding: 10px;
   outline: none;
   @include vendor-prefix(transition, 0.2s ease-in-out);
