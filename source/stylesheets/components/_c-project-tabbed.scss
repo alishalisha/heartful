@@ -50,8 +50,7 @@
 		padding-left: $padding-base/2;
 		border-right: 5px solid rgba(0,0,0,0);
 		font-size: 0.9em;
-		@include avenir-bold;
-		font-weight: 600;
+		@include font-meta;
 		text-transform: uppercase;
 		letter-spacing: 0.5pt;
 		color: $color-dark-gray;
@@ -83,8 +82,7 @@
 		border-radius: 5px;
 		font-size: 0.9em;
 		h4 {
-			@include avenir-bold;
-			font-weight: 600;
+			@include avenir-demi;
 		}
 		@media (max-width: $break-large) {
 			//display: none;
