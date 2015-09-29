@@ -59,6 +59,7 @@
   @include avenir-bold;
   border-bottom: 1px solid $color-purple-deep;
   &:hover {
-    opacity: 0.8;
+    color: $color-purple-deep;
+    border-bottom: 1px solid $color-purple-deep-dark;
   }
 }

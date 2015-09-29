@@ -16,6 +16,15 @@ a, a:visited, a:active {
 	@include vendor-prefix(transition, 0.1s ease-in-out);
 }
 
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
+
+b, strong {
+	@include avenir-bold;
+	font-weight: normal;
+}
+
 p {
 	line-height: 1.5;
 }
