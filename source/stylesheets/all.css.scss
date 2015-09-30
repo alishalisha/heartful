@@ -393,6 +393,9 @@ a.c-how__step-view {
 			width: 100%;
 			margin-bottom: $padding-base;
 		}
+		a {
+			text-decoration: underline;
+		}
 	}
 	&__menu {
 		list-style: none;
@@ -403,13 +406,20 @@ a.c-how__step-view {
 			text-align: center;
 			min-width: 30%;
 			display: inline-block;
-			background: $color-purple-deep;
-			border-radius: 10px;
-			padding: $padding-base/2;
-			color: #fff;
+			@include font-subhed;
+			color: $color-medium-gray;
+			font-size: 1.3em;
+			//background: $color-purple-deep;
+			border-bottom: 1px solid $color-purple-light;
+			//border-radius: 10px;
+			padding: $padding-base/4;
+			//color: #fff;
 			&.active,
 			&:hover {
-				background: $color-purple-deep-dark;
+				cursor: pointer;
+				color: $color-purple-deep-muted;
+				border-bottom: 1px solid $color-purple-deep;
+				//background: $color-purple-deep-dark;
 			}
 			@media (max-width: $break-small) {
 				width: 100%;
