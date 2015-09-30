@@ -167,6 +167,14 @@ td { vertical-align: top }
 			color: $color-purple-deep-dark;
 		}
 	}
+	&__table {
+		a, a:visited, a:active {
+			color: $color-purple-deep;
+		}
+		a:hover {
+			color: $color-purple-deep-dark;
+		}
+	}
 }
 
 //responsive flex wrapper will collapse into
