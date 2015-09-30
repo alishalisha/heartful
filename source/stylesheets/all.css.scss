@@ -308,3 +308,32 @@ a.c-how__step-view {
 		}
 	}
 }
+
+// nav bar for guests
+// the number that appears to show quantity of items in cart
+.c-icon--cart {
+	&:hover {
+		.testing-modal {
+			opacity: 1;
+		}
+	}
+}
+.c-icon--cart-quantity {
+	display: inline-block;
+	margin-left: 3px;
+	&:hover {
+		cursor: pointer;
+		color: $color-text;
+		.testing-modal {
+			opacity: 1;
+		}
+	}
+	.testing-modal {
+		opacity: 0;
+		position: absolute;
+		top: 45px;
+		left: -220px;
+		width: 300px;
+		border: 1px solid gray;
+	}
+}
