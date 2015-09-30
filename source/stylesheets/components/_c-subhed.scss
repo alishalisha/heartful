@@ -14,7 +14,6 @@
 		font-family: 'Roboto Slab';
 		font-weight: 300;
 		font-size: 2.1em;
-		-webkit-font-smoothing: antialiased;
 		&:after {
 			content: '';
 			display: block;
@@ -23,6 +22,12 @@
 			border-bottom: 5px solid $color-purple-deep;
 			// include animation
 			-webkit-animation: line 1.5s forwards;
+		}
+	}
+	&__text--home {
+		font-size: 1.8em;
+		&:after {
+			border-bottom: 0;
 		}
 	}
 }

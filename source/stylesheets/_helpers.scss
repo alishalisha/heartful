@@ -57,7 +57,6 @@
 @mixin font-subhed {
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 300;
-  // @include vendor-prefix(font-smoothing, antialiased);
 }
 
 @mixin font-meta {
@@ -77,6 +76,14 @@
 // TODO:
 // input style mixins
 // button focus/outline mixins
+
+.subhed {
+  @include font-subhed;
+}
+
+.purple {
+  color: $color-purple-deep;
+}
 
 .section {
   margin-bottom: $padding-base*2;
@@ -113,16 +120,6 @@
       max-width: 50%;
       margin: 0 auto;
       z-index: 1;
-    }
-    &:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(0, 0, 0, 0.2);
-      z-index: 0;
     }
   }
 }

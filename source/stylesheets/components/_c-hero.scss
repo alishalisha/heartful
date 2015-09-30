@@ -39,13 +39,28 @@
 			font-size: 4em;
 		}
 	}
+	&__home {
+		@include font-subhed;
+		margin-top: -5%;
+		max-width: 80%;
+		font-size: 3.5em;
+	}
 	&__date {
 		@include font-subhed;
 		font-size: 1.3em;
 		letter-spacing: 2pt;
 		text-transform: uppercase;
 	}
-	&--home {
-		background: $color-purple-deep-dark;
+	&__video {
+		max-width: 300px;
+		text-transform: uppercase;
+		letter-spacing: 0.5pt;
+		opacity: 0.8;
+		&:before {
+			content: 'O ';
+		}
+		&:hover {
+			opacity: 1;
+		}
 	}
 }
