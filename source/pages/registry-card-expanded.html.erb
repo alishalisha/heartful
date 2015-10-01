@@ -1,0 +1,59 @@
+---
+title: Registry Card Expanded
+---
+<%= partial "svg" %>
+
+<%= partial "components/nav" %>
+<%= partial "components/breaker" %>
+
+<div class="c-breaker c-breaker--small" style="border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;">
+  <div class="block center mb--small"><svg class="c-icon c-icon--large" title="gifts"><use xlink:href="#icon-gift"></use></svg></div>
+  <h4 class="meta center mb--xl" style="font-weight: normal;">Registry Gift Items</h4>
+  <div class="test r-flex">
+    <div class="c-registry-card flex-2">
+      <h3 class="c-registry-card__title">
+        Surgical equipment (sponges, needles, clamps, scalpels, etc)
+      </h3>
+      <div class="c-registry-card__info">
+        <div class="c-registry-card__price">
+          $30
+        </div>
+        <button class="c-registry-card__gift c-button c-button--disabled" disabled>
+          <span>Purchase</span>
+        </button>
+      </div>
+      <div class="c-registry-card__qty active" style="display: none;">
+        <div class="c-registry-card__qty-input">
+          <label>Quantity</label>
+          <input type="number" placeholder="0"></input>
+        </div>
+        <button class="c-registry-card__cart c-button">
+          <span>Add to Cart</span>
+        </button>
+      </div>
+      <div class="c-registry-card__checkout pad nudge-top" style="border-top: 1px solid #eee;">
+        <svg class="c-icon c-icon--large c-icon--green mb--small" title="success"><use xlink:href="#icon-checkmark"></use></svg>
+        <div class="c-registry-card__checkout-message mb">
+          Item has been added to cart!
+        </div>
+        <button class="c-button c-button--primary mb">Go to Checkout</button>
+        <div class="quiet small"><u><a href="#">Edit Item</a></u> or continue shopping.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="test">
+  <div class="c-breaker">
+      <div class="c-subhed">
+        <h3 class="c-subhed__info">
+          Thank you
+        </h3>
+        <h2 class="c-subhed__text">
+          Your gift has made a difference.
+        </h2>
+      </div>
+  </div>
+</div>
+<%= partial "components/footer" %>
